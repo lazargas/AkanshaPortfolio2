@@ -1,0 +1,76 @@
+.Hey{
+position: relative;
+left: 218px;
+top: 280px;
+width: 91px;
+font-family: 'Impact';
+font-style: normal;
+font-weight: 400;
+font-size: 96px;
+z-index: 1;
+color: #fff;
+text-shadow:
+      0 0 42px #cc66f0,
+      0 0 82px #cc66f0,
+      0 0 92px #cc66f0,
+      0 0 102px #cc66f0,
+      0 0 151px #cc66f0;
+animation: text-flicker 3s linear infinite;
+        
+}
+
+@keyframes text-flicker {
+    0% {
+      opacity:0.1;
+      text-shadow: 0px 0px 20px #cc66f0;
+    }
+    
+    2% {
+      opacity:1;
+      text-shadow: 0px 0px 30px #cc66f0;
+    }
+    8% {
+      opacity:0.1;
+      text-shadow: 0px 0px 50px #cc66f0;
+    }
+    9% {
+      opacity:1;
+      text-shadow: 0px 0px 100px #cc66f0;
+    }
+    12% {
+      opacity:0.1;
+      text-shadow: 0px 0px 150px #cc66f0;
+    }
+    20% {
+      opacity:1;
+      text-shadow: 0px 0px 20px #cc66f0;
+    }
+    25% {
+      opacity:0.3;
+      text-shadow: 0px 0px 80px #cc66f0;
+    }
+    30% {
+      opacity:1;
+      text-shadow: 0px 0px 100px #cc66f0;
+    }
+    
+    70% {
+      opacity:0.7;
+      text-shadow: 0px 0px 102px #cc66f0;
+    }
+    
+    72% {
+      opacity:0.2;
+      text-shadow:0px 0px 151px #cc66f0;
+    }
+    
+    77% {
+      opacity:.9;
+      text-shadow: 0px 0px 20px #cc66f0;
+    }
+    100% {
+      opacity:.9;
+      text-shadow: 0px 0px 30px #cc66f0;
+    }
+  }
+
