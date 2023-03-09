@@ -77,17 +77,17 @@ const Skills = () => {
            MORE...
           </div>
           </div>
-          <img  className="relative w-[47rem] h-[90vh] left-[175px]" src="/assets/skill.jpg" alt="" />
+          <img  className="relative w-[47rem] h-[85vh] top-[50px] left-[175px]" src="/assets/skill.jpg" alt="" />
         </div>
         
         </div>
         <marquee direction="up" className=" font-poppins w-[385px] relative h-[600px] flex-[2] left-[250px]">
-          <div className="not-italic font-poppins text-8xl p-2 leading-[144px] text-[#F1D37D]">SKILLS</div>
-          <div className="not-italic font-poppins text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-80">SKILLS</div>
-          <div className="not-italic font-poppins text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-60">SKILLS</div>
-          <div className="not-italic font-poppins text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">SKILLS</div>
-          <div className="not-italic font-poppins text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">SKILLS</div>
-          <div className="not-italic font-poppins text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-20">SKILLS</div>
+          <div className="not-italic font-[800] font-poppins text-8xl p-2 leading-[144px] text-[#F1D37D]">SKILLS</div>
+          <div className="not-italic font-[800] font-poppins text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-80">SKILLS</div>
+          <div className="not-italic font-[800] font-poppins text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-60">SKILLS</div>
+          <div className="not-italic font-[800] font-poppins text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">SKILLS</div>
+          <div className="not-italic font-[800] font-poppins text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">SKILLS</div>
+          <div className="not-italic font-[800] font-poppins text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-20">SKILLS</div>
         </marquee>
         
         

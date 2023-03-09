@@ -14,9 +14,9 @@ const Home = () => {
   return (
     
      <div className='absolute w-full h-[500vh]  bg-[#20201e]' >
-      <Fade bottom duration={1500} >
+      <Fade bottom duration={1250} >
       <div className='' ><Intro/></div>
-      <div className='' ><About/></div>
+      {/* <div className='' ><About/></div> */}
       <div className='' ><Skills/></div>
       <div className='' ><Projects/></div>
       </Fade>

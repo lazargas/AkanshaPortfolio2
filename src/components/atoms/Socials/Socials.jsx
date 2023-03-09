@@ -5,7 +5,7 @@ const Socials = () => {
     <>
     <ul className='flex' >
   <li className="email">
-    <a href="mailto:akarshsrivastv@gmail.com">
+    <a href="mailto:akanshasingh95720@gmail.com">
       <img src="/assets/gmail2.png" alt="gmail" className='h-[75px] w-[75px] invert-[100] p-4 hover:text-aqua '  />
     </a>
   </li>

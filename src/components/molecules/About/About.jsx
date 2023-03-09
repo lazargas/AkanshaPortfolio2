@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div name="about" className="w-full h-screen pt-[100px] top-[100vh] " >
       <div><TextAbout/></div>
-      <img className="absolute m-10 w-[884px] left-[556px] z-[3] " src="/assets/wavy.jpg" alt="akansha" />
+      <img className="absolute m-10 w-[884px] left-[600px] z-[3]  " src="/assets/wavy.jpg" alt="akansha" />
     </div>
   )
 }

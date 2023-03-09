@@ -6,7 +6,7 @@ const NavButton = ({text,Name}) => {
     <div>
         <button className='w-[162px] h-[39px] not-italic font-poppins text-xl leading-[30px] text-[#CC66F0]' >
         <Link to={Name} smooth={true} duration={500}>
-            {text}
+            {text.toUpperCase()}
           </Link>
         </button>
     </div>
