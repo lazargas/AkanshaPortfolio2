@@ -8,21 +8,44 @@ import Fade from 'react-reveal/Fade'
 import Zoom from 'react-reveal/Zoom'
 import Bounce from 'react-reveal/Bounce';
 import { Animator, ScrollContainer,Move,Sticky ,ScrollPage,batch,FadeIn,StickyIn,MoveOut,FadeOut,ZoomIn,ZoomInScrollOut } from 'react-scroll-motion'
+import { Parallax, ParallaxLayer } from '@react-spring/parallax'
+import Navbar from '../Navbar/Navbar'
+
 
 const Home = () => {
   const ZoomInScrollOut = batch(FadeIn(), Move());
   return (
-    
-     <div className='absolute w-full h-[500vh]  bg-[#20201e]' >
-      <Fade bottom duration={1250} >
-      <div className='' ><Intro/></div>
-      {/* <div className='' ><About/></div> */}
-      <div className='' ><Skills/></div>
-      <div className='' ><Projects/></div>
-      </Fade>
-      <div className='' ><Footer/></div>
+    <div className='w-full h-[500vh]  bg-[#20201e]' >
+    <Fade duration={1250} >
+    <div><Intro/></div>
+    <div><About/></div>
+    <div><Skills/></div>
+    <div><Projects/></div>
+    </Fade>
+    <div><Footer/></div>
+    </div>
+     
       
-     </div>
+    //   <Parallax className='w-full h-[500vh]  bg-[#20201e]' pages={6} >
+
+    //   <ParallaxLayer offset={0}>
+      
+    //   <div className='' ><Intro/></div>
+    //   </ParallaxLayer>
+    //   <ParallaxLayer offset={1} >
+    //   <div className=''><About/></div>
+    //   </ParallaxLayer>
+    //   <ParallaxLayer offset={3}>
+    //   <div className='' ><Skills/></div>
+    //   </ParallaxLayer>
+    //   <ParallaxLayer offset={4}>
+    //   <div className='' ><Projects/></div>
+    //   </ParallaxLayer>
+    //   <ParallaxLayer offset={5} >
+    //   <div className='' ><Footer/></div>
+    //   </ParallaxLayer>
+    // </Parallax>
+     
     
     
     

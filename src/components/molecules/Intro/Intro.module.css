@@ -8,18 +8,19 @@
 }
 
 .Rectangle15 {
-  position: absolute;
+  position: relative;
   width: 220px;
   height: 96px;
   left: 322px;
-  top: 398px;
-  background-image: url("/assets/akansha.png");
+  top: 250px;
+  background-color: #272724;
   border-radius: 30px;
 }
 .Text1 {
-  position: absolute;  
+  position: relative;  
   left: 325px;
-  top: 510px;
+  top: 280px;
+  width: 296px;
 }
 .SunnyButton{
 position: absolute;

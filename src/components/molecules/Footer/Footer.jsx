@@ -7,17 +7,17 @@ import Socials from '@/components/atoms/Socials/Socials'
 const Footer = () => {
   return (
     <>
-        <div name="contact" className="w-full h-[40vh] bg-[#000] top-[400vh] mt-24">
-            <div className='relative p-5  h-[97px] w-[500px] left-[129px] not-italic font-sora text-xl leading-[160%] text-white' >
+        <div name="contact" className="w-full h-[40vh] bg-[#000] ">
+            <div className='relative pt-[40px]  h-[97px] w-[500px] left-[100px] not-italic font-sora text-xl leading-[160%] text-white' >
             "Contact me if you want to elevate your brand's design game. And hey, if you're in the mood for a latte, I'm down for that too" ☕
             </div>
-            <div className="relative w-[300px] left-[1200px] bottom-[175px] ">
+            <div className="relative w-[300px] left-[1200px] top-[-170px] ">
               <img src="/assets/logo.png" alt="" />
             </div>
             <div className="relative bottom-[200px] w-[300px] left-[1100px] ">
               <Contact/>
             </div>
-            <div className="relative bottom-[275px] w-[300px] left-[129px] ">
+            <div className="relative bottom-[275px] w-[300px] left-[100px] ">
               <Socials/>
             </div>
         </div>

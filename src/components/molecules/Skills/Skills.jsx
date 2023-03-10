@@ -5,7 +5,7 @@ import style from "./Skills.module.css";
 const Skills = () => {
   return (
     <>
-      <div name="skills" className="flex gap-[2rem] w-full h-screen  mt-[80vh]">
+      <div name="skills" className="flex gap-[2rem] w-full h-screen  mt-[60vh]">
       {/* <div class="absolute flex overflow-x-hidden">
       <div class="animate-marquee whitespace-nowrap">
       <div className="not-italic font-sora text-8xl leading-[121px] text-[#F1D37D]">SKILLS</div>
@@ -27,7 +27,7 @@ const Skills = () => {
             <VerticalText text="PHOTOSHOP" />
           </div>
           <div className="relative right-[-10px] top-[60px] ">
-          <div className='absolute w-[550px]  h-12 not-italic font-semibold text-4xl leading-[45px] text-[#cc66f0] -rotate-90 font-sora z-[1] bg-[#20201e] hover:text-5xl hover:z-[2] hover:h-12 hover:text-[#cc66f0] hover:transition-all hover:duration-[0.4s] hover:ease-[ease]'  >
+          <div className='absolute w-[550px] pl-3  h-12 not-italic font-semibold text-4xl leading-[45px] text-[#cc66f0] -rotate-90 font-tex z-[1] bg-[#20201e] hover:text-5xl hover:z-[2] hover:h-12 hover:text-[#cc66f0] hover:transition-all hover:duration-[0.4s] hover:ease-[ease]'  >
            GRAPHIC DESIGNING
           </div>
           </div>
@@ -50,7 +50,7 @@ const Skills = () => {
             <VerticalText text="HTML" />
           </div>
           <div className="relative right-[-325px] top-[100px]">
-          <div className='absolute w-[550px]  h-12 not-italic font-semibold text-4xl leading-[45px] text-[#cc66f0] -rotate-90 font-sora z-[1] bg-[#20201e] hover:text-5xl hover:z-[2] hover:h-12 hover:text-[#cc66f0] hover:transition-all hover:duration-[0.4s] hover:ease-[ease]'  >
+          <div className='absolute w-[550px] pl-3 h-12 not-italic font-semibold text-4xl leading-[45px] text-[#cc66f0] -rotate-90 font-tex z-[1] bg-[#20201e] hover:text-5xl hover:z-[2] hover:h-12 hover:text-[#cc66f0] hover:transition-all hover:duration-[0.4s] hover:ease-[ease]'  >
            UI/UX DESIGNING
           </div>
           </div>
@@ -73,7 +73,7 @@ const Skills = () => {
             <VerticalText text="PROTOTYPING" />
           </div>
           <div className="relative right-[-640px] top-[10px]">
-          <div className='absolute w-[550px]  h-12 not-italic font-semibold text-4xl leading-[45px] text-[#F1D37D] -rotate-90 font-sora z-[1] bg-[#20201e] hover:text-5xl hover:z-[2] hover:h-12 hover:text-[#cc66f0] hover:transition-all hover:duration-[0.4s] hover:ease-[ease]'  >
+          <div className='absolute pl-3 w-[550px]  h-12 not-italic font-semibold text-4xl leading-[45px] text-[#F1D37D] -rotate-90 font-tex z-[1] bg-[#20201e] hover:text-5xl hover:z-[2] hover:h-12 hover:text-[#cc66f0] hover:transition-all hover:duration-[0.4s] hover:ease-[ease]'  >
            MORE...
           </div>
           </div>

@@ -7,7 +7,7 @@ const TextAbout = () => {
 
 
   return (
-    <div className="top-0" >
+    <div className="relative top-16" >
       <div className="absolute mt-10">
         <div className="absolute w-[361px] h-[117px] not-italic font-semibold text-[22px] leading-7 text-white left-[102px] font-sora top-5  ">
           Why Me?

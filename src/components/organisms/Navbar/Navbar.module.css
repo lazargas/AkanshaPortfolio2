@@ -1,11 +1,12 @@
 .Container{
-position: "fixed";
-width: 100%;
 height: 100px;
+min-width: 100%;
 left: 0px;
 top: 0px;
 z-index: 4;
-background: #20201e;
+/* background: #20201e; */
+background-color: #000;
+
 /* background-image :url('/assets/background1.jpg'); */
 /* shadows */
 

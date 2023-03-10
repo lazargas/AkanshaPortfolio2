@@ -7,7 +7,7 @@ const Text1 = () => {
     <div className={style.Text1}>
     FROM GRAPHIC DESIGNING TO UI/UX I’M SKILLED IN ALL THINGS WEB DESIGN AND PIZZA MAKING
     </div>
-    <img src="/assets/pizza.png" className='relative top-5 w-[64px] h-[67px] ' alt="" />
+    <img src="/assets/pizza.png" className='relative top-[100px] w-[64px] h-[67px] ' alt="" />
     </div>
   )
 }

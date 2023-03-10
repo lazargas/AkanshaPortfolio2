@@ -5,15 +5,16 @@ import Text1 from '@/components/atoms/Text1/Text1'
 import React from 'react'
 import style from "./Intro.module.css"
 
+
 const Intro = () => {
   return (
     <>
-    <div className="w-full h-screen  " name="intro" >
+    <div className="w-full h-screen  bg-[url('/assets/background1.jpg')] " name="intro" >
         <div className='absolute left-[180px]' >
           <Hey2/>
         </div>
         <div className={style.Rectangle15}>
-          
+          <img src="/assets/hii.gif" className='w-[220px] h-[96px] rounded-[30px]'/>
         </div>
         <div className={style.Text1} >
           <Text1/>

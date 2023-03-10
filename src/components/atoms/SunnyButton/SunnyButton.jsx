@@ -11,7 +11,7 @@ const SunnyButton = () => {
   return (
     <>
     <div className={style.Container} >
-    <div className={style.Ellipse1}> </div>
+    <img src="/assets/circle.png" alt="" className="" />
     <div className={style.Text} >SKIP TO THE SUNNY SIDE
     </div>
     </div>
