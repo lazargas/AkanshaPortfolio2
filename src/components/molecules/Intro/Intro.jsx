@@ -14,7 +14,7 @@ const Intro = () => {
           <Hey2/>
         </div>
         <div className={style.Rectangle15}>
-          <img src="/assets/hii.gif" className='w-[220px] h-[96px] rounded-[30px]'/>
+          <img src="/assets/intro2.gif" className='w-[220px] h-[96px] rounded-[30px]'/>
         </div>
         <div className={style.Text1} >
           <Text1/>

@@ -33,4 +33,10 @@ animation: rotateText 10s linear infinite;
     }
 }
 
+.Container{
+    position: relative;
+    bottom:200px;
+}
+
+
 

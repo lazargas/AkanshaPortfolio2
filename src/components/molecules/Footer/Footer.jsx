@@ -8,8 +8,9 @@ const Footer = () => {
   return (
     <>
         <div name="contact" className="w-full h-[40vh] bg-[#000] ">
-            <div className='relative pt-[40px]  h-[97px] w-[500px] left-[100px] not-italic font-sora text-xl leading-[160%] text-white' >
-            "Contact me if you want to elevate your brand's design game. And hey, if you're in the mood for a latte, I'm down for that too" ☕
+            <div className='relative pt-[40px]  h-[97px] w-[550px] left-[100px] not-italic font-sora text-xl leading-[160%] text-white' >
+            "Contact me if you want to elevate your brand's design game. And hey, if you're in the mood for a latte, I'm down for that too"
+            <img src="/assets/coffee.png" alt="" />
             </div>
             <div className="relative w-[300px] left-[1200px] top-[-170px] ">
               <img src="/assets/logo.png" alt="" />
@@ -17,7 +18,7 @@ const Footer = () => {
             <div className="relative bottom-[200px] w-[300px] left-[1100px] ">
               <Contact/>
             </div>
-            <div className="relative bottom-[275px] w-[300px] left-[100px] ">
+            <div className="relative bottom-[250px] w-[300px] left-[100px] ">
               <Socials/>
             </div>
         </div>
