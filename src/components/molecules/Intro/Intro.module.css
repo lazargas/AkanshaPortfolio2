@@ -23,7 +23,6 @@
   width: 296px;
 }
 .SunnyButton{
-position: absolute;
-left: 1380px;
-top: 138px;
+position: relative;
+left: 1400px;;
 }

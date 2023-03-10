@@ -21,8 +21,8 @@ const Footer = () => {
               <Socials/>
             </div>
         </div>
-        <div className=" flex gap-[69rem] p-5 h-[10vh] bg-[#3E3A3A] top-[472vh] " >
-        <div className="relative left-[120px] not-italic font-normal text-base text-white font-sora">
+        <div className=" flex gap-[69rem] pt-5 h-[10vh] bg-[#3E3A3A] top-[472vh] " >
+        <div className="relative left-[100px] not-italic font-normal text-base text-white font-sora">
             Copyright Reserved
         </div>
         <div className=' h-[26px] not-italic font-sora font-normal text-base text-white flex-none order-1 grow-0  left-[1280px]  ' >
