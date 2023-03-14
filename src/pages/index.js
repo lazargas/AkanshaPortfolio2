@@ -21,6 +21,7 @@ import LoadingBar from "@/components/molecules/LoadingBar/LoadingBar";
 import {motion} from "framer-motion";
 
 
+
 export default function Home() {
   const [loader, setLoader] = useState(false);
   const [mousePosition, setMousePosition] = useState({
@@ -61,17 +62,17 @@ export default function Home() {
   }, []);
 
   return (
-    <div className=" bg-[#fff] h-screen items-center justify-center ">
+    <div className=" bg-[#20201e] h-screen items-center justify-center ">
        
       {loader ? (
         <div className="absolute top-[50%] left-[35%] ">
-          {/* <SyncLoader
+          <SyncLoader
             color="#CC66F0"
             loading={loader}
             size={10}
             speedMultiplier={0.5}
-          /> */}
-          <LoadingBar/>
+          />
+          {/* <LoadingBar/> */}
         </div>
       ) : (
          <div className={style.all} >
