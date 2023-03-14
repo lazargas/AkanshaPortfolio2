@@ -65,7 +65,7 @@ export default function Home() {
     <div className=" bg-[#20201e] h-screen items-center justify-center ">
        
       {loader ? (
-        <div className="absolute top-[50%] left-[35%] ">
+        <div className="absolute top-[50%] left-[49%] ">
           <SyncLoader
             color="#CC66F0"
             loading={loader}
