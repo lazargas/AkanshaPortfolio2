@@ -1,0 +1,31 @@
+.loadingBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .letter {
+    font-size: 3rem;
+    margin: 0.5rem;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes bounces {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-1rem);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .bounce {
+    animation-name: bounces;
+  }
+  

@@ -3,26 +3,37 @@
   background: #272724;
   /* background-image: url("https://t3.ftcdn.net/jpg/00/69/58/08/360_F_69580819_pp76PI3BQo9Wtz7nqH5dQCUtriM3Dxwt.jpg"); */
   width: 100%;
-  height: 100vh;
+  height: 50vh;
   
 }
 
 .Rectangle15 {
-  position: relative;
+  position: absolute;
   width: 220px;
   height: 96px;
   left: 322px;
-  top: 250px;
+  top: 180px;
   background-color: #272724;
   border-radius: 30px;
 }
 .Text1 {
-  position: relative;  
+  position: absolute;  
   left: 325px;
-  top: 280px;
+  top: 320px;
   width: 296px;
 }
 .SunnyButton{
-position: relative;
-left: 1400px;;
+  position: relative;
+  left: 85rem;
+  animation: rotate 10s infinite;
+}
+
+@keyframes rotate {
+  0%{
+    rotate: (0deg);
+  }
+  100%{
+    rotate: (360deg);
+  }
+  
 }

@@ -1,0 +1,8 @@
+.akarsh{
+    position: relative;
+    overflow: hidden;
+}
+
+.akarsh::-webkit-scrollbar{
+    display: none;
+}

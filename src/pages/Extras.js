@@ -2,14 +2,16 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "@next/font/google";
 import styles from "@/styles/Extras.module.css";
+import Navbar from "@/components/organisms/Navbar/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Extras() {
   return (
     <>
+     <Navbar/>
       <div className={styles.Container}>
-        <div className={styles.Header}>akansha singh</div>
+        
         <div className={styles.D}>D</div>
         <div className={styles.e}>e</div>
         <div className={styles.i}>i</div>

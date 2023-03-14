@@ -27,7 +27,7 @@ const Navbar = () => {
   });
   return (
     <>
-      <div className={`bg-[#000] z-[6] sticky ${visible ? 'top-0' : ''} Container`}>
+      <div className={`bg-[#20201e] z-[6] sticky ${visible ? 'top-0' : ''} Container`}>
       <div className="flex pt-7 ">
           <div className="relative left-[20px]">
             <NavButton text="Home" Name="intro" />
@@ -47,7 +47,7 @@ const Navbar = () => {
           </div>
           ''
           <div className="relative left-[250px] ">
-            <button className="w-[162px] h-[39px] not-italic font-poppins text-xl leading-[30px] text-[#FFF] hover:text-[#CC66F0] hover:transition-all duration-[0.5s] ease-[ease] ">
+            <button className=" cursor-none w-[162px] h-[39px] not-italic font-poppins text-xl leading-[30px] text-[#FFF] hover:text-[#CC66F0] hover:transition-all duration-[0.5s] ease-[ease] ">
               <Link to="projects" smooth={true} duration={500}>
                 PROJECTS
               </Link>
@@ -57,7 +57,7 @@ const Navbar = () => {
             <NavButton text="Contact" Name="contact" />
           </div>
           <div className="relative left-[320px] ">
-            <button className="w-[162px] h-[39px] not-italic font-poppins font-extrabold pt-1 pl-2 pr-2 text-l leading-[30px] text-[#fff] rounded-[22px] border-[1.5px] border-solid border-[#CC66F0]">
+            <button className=" cursor-none w-[162px] h-[39px] not-italic font-poppins font-semibold pt-1 pl-2 pr-2 text-l leading-[30px] text-[#fff] rounded-[22px] border-[1.5px] border-solid border-[#CC66F0]">
               DOWNLOAD CV
             </button>
           </div>

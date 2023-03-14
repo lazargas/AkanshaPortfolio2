@@ -4,8 +4,8 @@
     justify-content: center;
     color:#fff;
     gap: 0.5rem;
-    transform-origin: 0 100px;
-    /* animation: rotateText 10s linear infinite; */
+    transform-origin: 0 10px;
+    animation: rotateText 10s linear infinite;
 }
 @keyframes rotateText{
     0%{
@@ -23,3 +23,23 @@
     font-size: 1.2rem;
     
 }
+
+.Rectangle15 {
+    position: relative;
+    width: 220px;
+    height: 96px;
+    left: 322px;
+    top: 250px;
+    background-color: #272724;
+    border-radius: 30px;
+  }
+  .Text1 {
+    position: relative;  
+    left: 325px;
+    top: 280px;
+    width: 296px;
+  }
+
+  .all{
+    cursor: none;
+  }

@@ -3,20 +3,15 @@ module.exports = {
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      animation: 
-      {
-      marquee: 'marquee 25s linear infinite',
-      marquee2: 'marquee2 25s linear infinite',
-    },
-    keyframes: {
-      marquee: {
-        '0%': { transform: 'translateX(0%)' },
-        '100%': { transform: 'translateX(-100%)' },
+      keyframes: {
+        bounces: {
+          '100%': { top: '-20px' },
+        }
       },
-      marquee2: {
-        '0%': { transform: 'translateX(100%)' },
-        '100%': { transform: 'translateX(0%)' },
+      animation: {
+        bounces: 'bounces .9s ease infinite alternative',
       },
+      
     },
 
   },
@@ -25,6 +20,9 @@ module.exports = {
       'poppins':['Poppins'],
       'tex':['TEX']
     },
-  },
-  plugins: [],
-}
+    plugins: [
+      require("tailwindcss-animation-delay"),
+    ],
+  };
+  
+
