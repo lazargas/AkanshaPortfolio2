@@ -12,19 +12,22 @@ import { useContext } from 'react'
 import DropDown from '@/components/atoms/DropDown/DropDown'
 import Contact from '@/components/Phone/ATOMS/Contract/Contact'
 import Footer from '@/components/Phone/ATOMS/Footer/Footer'
-
+import Fade from "react-reveal/Fade";
 
 const HomePhone = () => {
   const {open,setOpen} = useContext(AkanshaContext);
   return (
-    <div>
+    <div className='bg-[#20201e]' >
      {open?<DropDown/>:<Navbar/>}
+    <Fade>
     <Intro/>
     <About/>
     <Skills/>
     <Projects/>
     <Contact/>
     <Footer/>
+    </Fade>
+    
     </div>
     
   )

@@ -66,7 +66,8 @@ export default function Home() {
     }
   }
 
-  const isMobile = window.innerWidth < 640;
+  
+  
   useEffect(() => {
     setLoader(true);
     setTimeout(() => {
@@ -89,8 +90,7 @@ export default function Home() {
         </div>
       ) : (
         <div>
-        {isMobile && <HomePhone/>}
-        {!isMobile && <HomePage/>}
+        <HomePhone/>
         <div/>
         {/* <motion.div
         className={style.cursor}
