@@ -19,6 +19,7 @@ import {
 } from "react-spinners";
 import LoadingBar from "@/components/molecules/LoadingBar/LoadingBar";
 import {motion} from "framer-motion";
+import HomePhone from "@/components/organisms/HomePhone/HomePhone";
 
 
 
@@ -29,6 +30,18 @@ export default function Home() {
     y: 0
   });
   const [cursorVariant, setCursorVariant] = useState("default");
+  const [phone,setPhone] = useState(false);
+  
+  useEffect(()=>{
+    var wid =  window.innerWidth;
+    console.log(wid);
+    if(wid<=640)
+    setPhone(true);
+    else
+    setPhone(false);
+  },[]);
+
+
 
 
   useEffect(() => {
@@ -62,7 +75,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className=" bg-[#20201e] h-screen items-center justify-center ">
+    <div className=" bg-[#20201e] h-screen items-center justify-center">
        
       {loader ? (
         <div className="absolute top-[50%] left-[49%] ">
@@ -76,15 +89,16 @@ export default function Home() {
         </div>
       ) : (
          <div className={style.all} >
+         {phone?<HomePhone/>:<HomePage/>}
         
-        <HomePage />
-        <motion.div
+        {/* <motion.div
         className={style.cursor}
         variants={variants}
         animate={cursorVariant}
-      />
+      /> */}
         </div>
       )}
     </div>
   );
 }
+

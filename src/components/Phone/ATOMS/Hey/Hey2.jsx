@@ -4,7 +4,7 @@ import style from "./Hey2.module.css"
 const Hey2 = () => {
   return (
     <div className={style.Container} >
-         <ul >
+         <ul>
             <li className={style.list_item} >
                 <div className={style.element} >H</div>
             </li>

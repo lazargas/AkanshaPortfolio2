@@ -28,8 +28,8 @@ import SunnyButton from "@/pages/test";
 
 const Home = () => {
   return (
-    <div>
-      <Navbar />
+    <div className="" >
+      <Navbar/>
     <div className={style.akarsh}>
     <div className="bg-[#20201e]">
     

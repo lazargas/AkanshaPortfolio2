@@ -1,0 +1,33 @@
+.colourChangingText {
+    height: auto;
+    width: auto;
+    /* Use it when you need it. another way is to use margin auto. */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+    font-size: 80px;
+    cursor: pointer;
+    letter-spacing: 10px;
+    margin: 0 4px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    text-shadow: 0 0 15px #FFFFFF, 0 0 25px #FFFFFF;
+    animation: cycle 2s linear infinite;
+}
+
+@keyframes cycle {
+    0% {
+        text-shadow: 0px 0px 100px #FFFFFF;
+        color: #FFFFFF;
+    }
+
+    33% {
+        text-shadow: 0px 0px 100px #CC66F0;
+        color: #CC66F0;
+    }
+
+    67% {
+        text-shadow: 0px 0px 100px #F1D37D;
+        color: #F1D37D;
+    }
