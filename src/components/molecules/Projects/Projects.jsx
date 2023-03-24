@@ -6,7 +6,7 @@ import Link from "next/link";
 const Projects = () => {
   return (
     <>
-      <div name="projects" className="w-full h-[125vh] ">
+      <div name="projects" className="w-full h-[150vh] ">
         {/* p-7 top-[300vh] pt-60  */}
         <marquee behaviour="alternate" className="relative w-[100%]">
           <div className="flex gap-[1rem]">

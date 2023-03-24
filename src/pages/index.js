@@ -66,7 +66,7 @@ export default function Home() {
     }
   }
 
-
+  const isMobile = window.innerWidth < 640;
   useEffect(() => {
     setLoader(true);
     setTimeout(() => {
@@ -88,9 +88,10 @@ export default function Home() {
           {/* <LoadingBar/> */}
         </div>
       ) : (
-         <div className={style.all} >
-         {phone?<HomePhone/>:<HomePage/>}
-        
+        <div>
+        {isMobile && <HomePhone/>}
+        {!isMobile && <HomePage/>}
+        <div/>
         {/* <motion.div
         className={style.cursor}
         variants={variants}
