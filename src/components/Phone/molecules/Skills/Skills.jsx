@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import VerticalText from "../../ATOMS/VerticalText/VerticalText";
+import {motion} from "framer-motion"
 
 const Skills = () => {
   const [h, setH] = useState(0);
@@ -11,8 +12,8 @@ const Skills = () => {
   }, []);
 
   return (
-    <div name="skills" className="bg-[#20201e] overflow-hidden h-[310vh] w-full ">
-      <marquee
+    <div name="skills" className="bg-[#20201e] overflow-hidden h-[290vh] w-full ">
+      <motion.marquee
         direction="up"
         className={`font-poppins w-full h-[500px] text-center rotate-[-90deg] `}
       >
@@ -161,7 +162,7 @@ const Skills = () => {
           SKILLS
         </div>
         
-      </marquee>
+      </motion.marquee>
       <div>
         <div className=" bg-[20201e]" >
           <div className="" >

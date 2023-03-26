@@ -1,8 +1,3 @@
-@font-face {
-    font-family: grand;
-    src: url("/static/fonts/ntf-grand-bold.otf");
-}
-
 .colourChangingText {
     height: 15vh;
     width: auto;
@@ -10,9 +5,8 @@
     /* display: flex;
     justify-content: center;
     align-items: center; */
-    font-family: grand;
     font-weight: 800;
-    font-size: 120px;
+    font-size: 80px;
     cursor: pointer;
     letter-spacing: 10px;
     margin: 0 4px;
@@ -26,17 +20,17 @@
 
 @keyframes cycle {
     0% {
-        text-shadow: 0px 0px 40px #eef3ab;
+        
         color: #FFFFFF;
     }
 
-    50% {
-        text-shadow: 0px 0px 40px #CC66F0;
+    33% {
+        
         color: #CC66F0;
     }
-    
-    100% {
-        text-shadow: 0px 0px 40px #F1D37D;
+
+    67% {
+        
         color: #F1D37D;
     }
 }

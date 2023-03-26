@@ -3,6 +3,7 @@ import Hey2 from '../../ATOMS/Hey/Hey2'
 import Text1 from '../../ATOMS/Text1/Text1'
 import { AkanshaContext } from '@/Context/Akansha'
 import { useContext } from 'react'
+import Hey3 from '@/components/atoms/Hey/Hey3'
 
 const Intro = () => {
   const {setOpen} = useContext(AkanshaContext);
@@ -10,13 +11,13 @@ const Intro = () => {
      setOpen(false);
   }
   return (
-    <div name="home" className=' h-screen w-full flex gap-[1rem]'  >
-         <div className='absolute pt-[125px] pl-14' >
-            <Hey2/>
-         </div>
-         <div className="absolute top-[300px] left-[170px] " >
-              <Text1/>
-         </div>
+    <div name="home" className='px-16 h-screen w-full flex gap-[1.5rem] items-center'  >
+        <div className='relative bottom-[40px] ' >
+          <Hey3/>
+        </div>
+        <div>
+          <Text1/>
+        </div>
     </div>
   )
 }

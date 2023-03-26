@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Extras() {
   return (
     <>
-     <Navbar/>
+     
       <div className={styles.Container}>
         
         <div className={styles.D}>D</div>

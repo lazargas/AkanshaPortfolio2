@@ -5,6 +5,15 @@
   height: 3683px;
   width: 1520px;
   background: #fffaed;
+
+}
+
+@media (max-width: 640px){
+  .Container{
+    width: auto;
+    
+  }
+  
 }
 
 .Header {

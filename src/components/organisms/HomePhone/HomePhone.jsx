@@ -17,16 +17,16 @@ import Fade from "react-reveal/Fade";
 const HomePhone = () => {
   const {open,setOpen} = useContext(AkanshaContext);
   return (
-    <div className='bg-[#20201e]' >
+    <div className='bg-[#20201e] w-full' >
      {open?<DropDown/>:<Navbar/>}
-    <Fade>
+    
     <Intro/>
     <About/>
     <Skills/>
     <Projects/>
     <Contact/>
     <Footer/>
-    </Fade>
+    
     
     </div>
     

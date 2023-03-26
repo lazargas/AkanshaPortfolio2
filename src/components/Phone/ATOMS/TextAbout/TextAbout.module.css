@@ -13,3 +13,9 @@ color: #CC66F0;
 text-align: left;
 left: 28px;
 }
+
+@media (max-width: 640px){
+    .why{
+        font-size: 55px;
+    }
+}
