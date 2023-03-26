@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import VerticalText from "../../ATOMS/VerticalText/VerticalText";
-import {motion} from "framer-motion"
+import {motion,useScroll} from "framer-motion"
 
 const Skills = () => {
   const [h, setH] = useState(0);
@@ -10,7 +10,8 @@ const Skills = () => {
     setH(he);
     console.log(he);
   }, []);
-
+  
+  const {scrollProgress} = useScroll();
   return (
     <div name="skills" className="bg-[#20201e] overflow-hidden h-[290vh] w-full ">
       <motion.marquee
@@ -173,7 +174,19 @@ const Skills = () => {
           </div>
           
            
-          <VerticalText text={"GRAPHIC DESIGNING"} />
+          <motion.div 
+    initial={{ opacity: 0,
+    fontSize:"28px",
+    color:"#fff"
+    }}
+  whileInView={{ opacity: 1,
+  fontSize:"40px",
+  overflow:"hidden",
+  color:scrollProgress
+  }}
+    className={`w-full pl-5 mt-10 overflow-x-hidden h-12 not-italic font-tex tracking-[8px] text-3xl leading-[45px]  text-[#ECDAD8] z-[1] bg-[#20201e]  cursor-none `}>
+    GRAPHIC DESIGNING
+    </motion.div>
           <VerticalText text={"FIGMA"} />
           <VerticalText text={"ADOBE XD"} />
           <VerticalText text={"ILLUSTRATOR"} />

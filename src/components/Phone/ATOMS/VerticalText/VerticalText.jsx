@@ -25,7 +25,7 @@ const VerticalText = ({text,padding}) => {
   overflow:"hidden",
   color:scrollProgress
   }}
-    className={`w-full pl-5 mt-10 overflow-x-hidden h-12 not-italic font-tex text-3xl leading-[45px] p-[${padding}px]  text-[#ECDAD8] z-[1] bg-[#20201e]  cursor-none `}>
+    className={`w-full pl-5 mt-10 overflow-x-hidden h-12 not-italic font-tex tracking-[8px] text-3xl leading-[45px] p-[${padding}px]  text-[#ECDAD8] z-[1] bg-[#20201e]  cursor-none `}>
     {text}
     </motion.div>
   )

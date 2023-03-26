@@ -7,8 +7,8 @@ const About = () => {
       <div className="absolute">
         <TextAbout />
       </div>
-      <div className="bg-[#20201e] mt-20 absolute top-[105vh] " >
-     <img src="/assets/wavy2.png" className="w-[884px] overflow-hidden h-screen" alt="" />
+      <div className="bg-[#20201e] flex justify-center mt-20 relative top-[115vh] " >
+     <img src="/assets/wavy2.png" className=" overflow-hidden h-screen" alt="" />
      </div>
     </div>
   );
