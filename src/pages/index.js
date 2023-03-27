@@ -90,7 +90,7 @@ export default function Home() {
         </div>
       ) : (
         <div>
-        {phone?<HomePhone/>:<HomePage/>}
+        <HomePhone/>
         <div/>
         {/* <motion.div
         className={style.cursor}
