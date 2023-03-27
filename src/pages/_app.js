@@ -39,7 +39,7 @@ export default function App({ Component, pageProps }) {
 
 
   return (
-    <AnimatePresence wait>
+    
       <motion.div
        
         className="base-page-size"
@@ -54,12 +54,13 @@ export default function App({ Component, pageProps }) {
   
 </style>
     </Head>
-    
+    <AnimatePresence wait initial={false} >
     <Component {...pageProps} />
+    </AnimatePresence>
     </div>
     </AkanshaProvider>
       </motion.div>
-    </AnimatePresence>
+    
     
     
   )

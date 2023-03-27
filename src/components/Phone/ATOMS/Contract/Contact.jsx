@@ -19,13 +19,21 @@ const Contact = () => {
       />
       <ul className="flex gap-[2.5rem] pt-20 relative justify-center ">
         <li>
+          <a href="https://instagram.com/singh__akansha">
           <img src="/assets/phoneInsta.png" alt="" />
+          </a>
+          
         </li>
         <li>
+          <a href="mailto:akarshsrivastv@gmail.com">
           <img src="/assets/phoneGmail.png" alt="" />
+          </a>
+          
         </li>
         <li>
+        <a href="">
           <img src="/assets/phoneLinkedIn.png" alt="" />
+          </a>
         </li>
       </ul>
       <div className="flex flex-col justify-center not-italic font-normal text-base leading-[160%] text-center text-white pt-14 font-tex ">

@@ -251,6 +251,7 @@ const Projects = () => {
         <div>
         <Link href="/Project1" >
         <img className='relative left-[46px] top-[180px]  z-[1] ' src="/assets/phoneProject4.png" alt="" />
+          
           <img
           src="/assets/yellow 1.png" className='relative  left-[20.5px] top-[-20px] z-[2] opacity-0 hover:opacity-100 hover:transition-all hover:duration-[0.6s] hover:ease-[ease]' alt="" />
           </Link>

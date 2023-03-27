@@ -1,0 +1,100 @@
+.D {
+  z-index: 2;
+  position: absolute;
+  
+  left: 0px;
+  top: 40vh;
+  
+  font-family: "Impact";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 120px;
+  line-height: 610px;
+  text-align: right;
+
+  color: #cc66f0;
+}
+
+.e {
+  z-index: 2;
+  position: absolute;
+ 
+  left: 12vw;
+  top: 45vh;
+
+  font-family: "Impact";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 366px;
+  text-align: right;
+
+  color: #f6ed09;
+}
+
+.i {
+  position: absolute;
+
+  left: 70px;
+  top: 68vh;
+  z-index: 2;
+  font-family: "Impact";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 305px;
+  text-align: right;
+
+  color: #cc66f0;
+}
+
+.s {
+  position: absolute;
+  
+  left: 110px;
+  top: 40vh;
+
+  font-family: "Impact";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 120px;
+  line-height: 488px;
+  text-align: right;
+
+  color: #cc66f0;
+  z-index: 2;
+}
+
+.g {
+  position: absolute;
+
+  left: 110px;
+  top: 62vh;
+
+  font-family: "Impact";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 120px;
+  line-height: 366px;
+  text-align: right;
+
+  color: #f7ed09;
+  z-index: 2;
+}
+
+.N {
+  position: absolute;
+  
+  left: 180px;
+  top: 65vh;
+
+  font-family: "Impact";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 200px;
+  line-height: 366px;
+  text-align: right;
+
+  color: #cc66f0;
+  z-index: 2;
+}

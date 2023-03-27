@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "@/styles/Design.module.css"
 
 const Design = () => {
   return (
@@ -7,10 +8,16 @@ const Design = () => {
         <img src="/assets/logo.png" className="w-[180px] " alt="" />
       </div>
       <div className="flex justify-center">
-        <p className="relative top-[-60px] not-italic font-normal text-xl leading-6 text-black fon ">
+        <p className="relative top-[-60px] not-italic font-normal text-xl leading-6 text-black font-grand tracking-[10px] ">
           akansha singh
         </p>
       </div>
+      <div className={styles.D}>D</div>
+        <div className={styles.e}>e</div>
+        <div className={styles.i}>i</div>
+        <div className={styles.s}>S</div>
+        <div className={styles.g}>g</div>
+        <div className={styles.N}>N</div>
       <div>
         <img src="/assets/Designs/3.png" className="" alt="relative" />
       </div>
