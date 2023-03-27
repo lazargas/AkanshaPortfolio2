@@ -16,7 +16,7 @@ const Skills = () => {
     <div name="skills" className="bg-[#20201e] overflow-hidden h-[290vh] w-full ">
       <motion.marquee
         direction="up"
-        className={`font-poppins w-full h-[500px] text-center rotate-[-90deg] `}
+        className={`font-poppins w-full h-[500px] text-center rotate-[-90deg] py-8`}
       >
         <div className="not-italic tracking-[30px] font-[800] font-grand text-8xl pt-2 pb-2 leading-[144px] text-[#F1D37D]">
           SKILLS

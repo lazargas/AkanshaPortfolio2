@@ -15,7 +15,7 @@ const TextAbout = () => {
         <div className="absolute w-[345px] top- h-[117px] not-italic font-semibold text-[35px] leading-7 text-white text-left  top-[135px] font-sora ">
           I am
         </div>
-        <div className="absolute font-grand tracking-[10px] not-italic font-semibold w-[200px] h-[145px] text-[64px] text-[#CC66F0] text-left left-7 top-40">
+        <div className="absolute font-grand tracking-[10px] not-italic font-semibold w-[200px] h-[145px] text-[58px] text-[#CC66F0] text-left left-7 top-40">
           <Typewriter loop="false" words={['UI/UX DESIGNER','GRAPHIC DESIGNER']} 
           cursor
           cursorStyle='_'
