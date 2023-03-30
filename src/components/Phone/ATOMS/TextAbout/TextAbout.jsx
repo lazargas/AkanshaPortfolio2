@@ -13,7 +13,7 @@ const TextAbout = () => {
           WHY ME ?
         </div>
         <div className="absolute w-[345px] top- h-[117px] not-italic font-semibold text-[35px] leading-7 text-white text-left  top-[135px] font-sora ">
-          I am
+          I am 
         </div>
         <div className="absolute font-grand tracking-[5px] not-italic font-semibold w-auto h-[145px] text-[58px] text-[#CC66F0] text-left left-7 top-40">
           <Typewriter loop="false" words={['UI/UX DESIGNER','GRAPHIC DESIGNER']} 

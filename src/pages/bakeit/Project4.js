@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Page1 = () => {
   return (
-    <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{duration:0.75, ease:"easeOut"}} className=" flex flex-col items-center h-screen  bg-[#888787]">
+    <div className=" flex flex-col items-center h-screen  bg-[#888787]">
       <HorizontalScroll>
         <p className=" font-grand tracking-[50px] relative bottom-[120px] text-white text-[600px] bg-[#888787]">
           BAKEit!
@@ -29,7 +29,7 @@ const Page1 = () => {
             </Link>
           </div>
       </HorizontalScroll>
-    </motion.div>
+    </div>
   );
 };
 
