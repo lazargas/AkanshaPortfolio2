@@ -25,7 +25,8 @@ module.exports = {
         'sora': ['SORA'],
         'poppins':['Poppins'],
         'tex':['TEX'],
-        'grand':['ntf-grand']
+        'grand':['ntf-grand'],
+        'rajdhani':['rajdhani']
       }, 
     },
 

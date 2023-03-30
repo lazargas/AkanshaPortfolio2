@@ -76,7 +76,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className=" bg-[#20201e] h-screen items-center justify-center">
+    <div className=" bg-[#20201e] h-screen w-full items-center justify-center">
        
       {loader ? (
         <div className="absolute top-[50%] left-[49%] ">
@@ -91,15 +91,16 @@ export default function Home() {
       ) : (
         <div>
         <HomePhone/>
-        <div/>
-        {/* <motion.div
-        className={style.cursor}
-        variants={variants}
-        animate={cursorVariant}
-      /> */}
-        </div>
+        
+         </div>
+        
       )}
     </div>
   );
 }
 
+  {/* <motion.div
+        className={style.cursor}
+        variants={variants}
+        animate={cursorVariant}
+      />  */}

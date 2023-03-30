@@ -7,6 +7,7 @@ import { AkanshaProvider } from '@/Context/Akansha';
 import { AnimatePresence } from "framer-motion";
 import { useRouter } from "next/router";
 
+
 export default function App({ Component, pageProps }) {
   const [mousePosition, setMousePosition] = useState({
     x: 0,
@@ -40,10 +41,7 @@ export default function App({ Component, pageProps }) {
 
   return (
     
-      <motion.div
-       
-        className="base-page-size"
-      >
+     
        <AkanshaProvider>
 <div>
     <Head>
@@ -51,15 +49,16 @@ export default function App({ Component, pageProps }) {
   @import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Faustina:wght@300&family=Happy+Monkey&family=Poppins:ital,wght@0,400;1,300&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Faustina:wght@300&family=Happy+Monkey&family=Poppins:ital,wght@0,400;1,300&family=Sora&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Faustina:wght@300&family=Happy+Monkey&family=Poppins:ital,wght@0,400;1,300&family=Sora&display=swap');
-  
+  @import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Faustina:wght@300&family=Happy+Monkey&family=Poppins:ital,wght@0,400;1,300&family=Rajdhani:wght@500;600;700&family=Rubik+Iso&family=Sora&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
 </style>
     </Head>
-    <AnimatePresence wait initial={false} >
-    <Component {...pageProps} />
+    <AnimatePresence>
+    <Component key={router.pathname} {...pageProps} />
     </AnimatePresence>
     </div>
     </AkanshaProvider>
-      </motion.div>
+      
     
     
     
@@ -67,23 +66,3 @@ export default function App({ Component, pageProps }) {
 }
 
 
-// key={router.route}
-// initial="initialState"
-// animate="animateState"
-// exit="exitState"
-// transition={{
-//   duration: 0.75,
-// }}
-// variants={{
-//   initialState: {
-//     opacity: 0,
-//     clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 100%)",
-//   },
-//   animateState: {
-//     opacity: 1,
-//     clipPath: "polygon(0 0, 100% 0, 100% 100%, 0% 100%)",
-//   },
-//   exitState: {
-//     clipPath: "polygon(50% 0, 50% 0, 50% 100%, 50% 100%)",
-//   },
-// }}

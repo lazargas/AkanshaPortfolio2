@@ -17,9 +17,15 @@
     src: local('ntf-grand'), url(/public/static/fonts/ntf-grand-bold.otf) format('otf');
   }
 
+  @font-face {
+    font-family: 'rajdhani';
+    src: local('rajdhani'), url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap') format('ttf');
+  } 
+
   ::-webkit-scrollbar {
    display: none;
   }
+
 
 
 
