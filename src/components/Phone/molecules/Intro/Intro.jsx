@@ -31,11 +31,11 @@ const Intro = () => {
       
         </div>
         </Link>
-        <div className="">
-          <Hey3 />
-        </div>
-        <div className="relative bottom-[-110px] ">
-          <Text1 />
+        <div className={style.homePageTextContainer}>
+            <Hey3 />
+          <div className={``}>
+            <Text1 />
+          </div>
         </div>
       </div>
     </>

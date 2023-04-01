@@ -1,3 +1,8 @@
+.homePageTextContainer{
+  display: flex;
+  align-items: end;
+}
+
 .rotate{
     animation: loading 8s linear infinite;
    }
