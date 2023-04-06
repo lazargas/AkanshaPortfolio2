@@ -26,6 +26,10 @@
    display: none;
   }
 
+  body{
+        width: 120%;
+  }
+
   *{
     margin: 0;
     box-sizing: border-box;
