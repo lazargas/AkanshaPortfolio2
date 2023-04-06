@@ -10,10 +10,6 @@
 .colourChangingText {
     line-height: 1;
     width: auto;
-    /* Use it when you need it. another way is to use margin auto. */
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     font-family: grand;
     font-weight: 800;
     font-size: 120px;
@@ -41,5 +37,12 @@
     100% {
         text-shadow: 0px 0px 40px #F1D37D;
         color: #F1D37D;
+    }
+}
+
+@media(max-width : 576px){
+  .lolodile{
+        display: flex;
+        margin: 0px 0 10px -4px;
     }
 }
