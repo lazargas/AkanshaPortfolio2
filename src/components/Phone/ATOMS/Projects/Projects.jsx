@@ -232,7 +232,7 @@ const Projects = () => {
       <div className="flex gap-[5rem]">
         
           <motion.div>
-            <Link href="/Project3">
+            <Link href="/sweetScapes">
               <img
                 className="relative left-[46px] top-[100px] z-[1] "
                 src="/assets/phoneProject1.png"
@@ -245,7 +245,7 @@ const Projects = () => {
               />
             </Link>
             <div>
-              <Link href="/Project2">
+              <Link href="/miscellaneous">
                 <img
                   className="relative left-[46px] top-[50px] z-[1] "
                   src="/assets/phoneProject2.png"
@@ -261,7 +261,7 @@ const Projects = () => {
           </motion.div>
           <div>
             <div>
-              <Link href="/cyclebecho/Project1">
+              <Link href="/cyclebecho">
                 <img
                   className="relative left-[46px] top-[180px]  z-[1] "
                   src="/assets/phoneProject4.png"
@@ -276,7 +276,7 @@ const Projects = () => {
               </Link>
             </div>
             <div>
-              <Link href="/bakeit/Project4">
+              <Link href="/bakeit">
                 <img
                   className="relative left-[46px]  z-[1] "
                   src="/assets/phoneProject3.png"

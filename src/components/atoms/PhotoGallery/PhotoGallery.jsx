@@ -6,7 +6,7 @@ import {desktopGalleryItems, phoneGalleryItems} from "../../../Utils/data/Orient
 
 const PhotoGallery = () => {
 
-  const [screenType, setScreenType] = useState(""); 
+  const [screenType, setScreenType] = useState((window.innerWidth < 768) ? "phoneScreen" : "desktopScreen"); 
 
 
   useEffect(()=> {

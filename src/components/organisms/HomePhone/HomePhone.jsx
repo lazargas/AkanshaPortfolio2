@@ -27,7 +27,6 @@ const HomePhone = () => {
     <Contact/>
     <Footer/>
     
-    
     </div>
     
   )
