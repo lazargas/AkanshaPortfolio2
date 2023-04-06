@@ -1,0 +1,194 @@
+ .galleryContainer {
+    padding: 10%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(autofill, minmax(200px,1fr));
+ }
+
+ .galleryItem{
+    display: grid;
+ }
+
+ .galleryItem img {
+    grid-column: 1 -1;
+    grid-row: 1 -1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+ }
+
+/* .galleryItem-w1 {
+    grid-column: span 1;
+}
+
+.galleryItem-w2 {
+    grid-column: span 2;
+}
+
+.galleryItem-w3 {
+    grid-column: span 3;
+}
+
+.galleryItem-w4 {
+    grid-column: span 4;
+}
+
+.galleryItem-w5 {
+    grid-column: span 5;
+}
+
+.galleryItem-w6 {
+    grid-column: span 6;
+}
+
+.galleryItem-w7 {
+    grid-column: span 7;
+}
+
+.galleryItem-w8 {
+    grid-column: span 8;
+}
+
+.galleryItem-w9 {
+    grid-column: span 9;
+}
+
+.galleryItem-w10 {
+    grid-column: span 10;
+}
+
+.galleryItem-w11 {
+    grid-column: span 11;
+}
+
+.galleryItem-w12 {
+    grid-column: span 12;
+}
+
+.galleryItem-w13 {
+    grid-column: span 13;
+}
+
+.galleryItem-w14 {
+    grid-column: span 14;
+}
+
+.galleryItem-w15 {
+    grid-column: span 15;
+}
+
+.galleryItem-w16 {
+    grid-column: span 16;
+}
+
+.galleryItem-w17 {
+    grid-column: span 17;
+}
+
+.galleryItem-w18 {
+    grid-column: span 18;
+}
+
+.galleryItem-w19 {
+    grid-column: span 19;
+}
+
+.galleryItem-w20 {
+    grid-column: span 20;
+}
+
+.galleryItem-w21 {
+    grid-column: span 21;
+}
+
+.galleryItem-w22 {
+    grid-column: span 22;
+}
+
+.galleryItem-h1 {
+    grid-row: span 1;
+}
+
+.galleryItem-h2 {
+    grid-row: span 2;
+}
+
+.galleryItem-h3 {
+    grid-row: span 3;
+}
+
+.galleryItem-h4 {
+    grid-row: span 4;
+}
+
+.galleryItem-h5 {
+    grid-row: span 5;
+}
+
+.galleryItem-h6 {
+    grid-row: span 6;
+}
+
+.galleryItem-h7 {
+    grid-row: span 7;
+}
+
+.galleryItem-h8 {
+    grid-row: span 8;
+}
+
+.galleryItem-h9 {
+    grid-row: span 9;
+}
+
+.galleryItem-h10 {
+    grid-row: span 10;
+}
+
+.galleryItem-h11 {
+    grid-row: span 11;
+}
+
+.galleryItem-h12 {
+    grid-row: span 12;
+}
+
+.galleryItem-h13 {
+    grid-row: span 13;
+}
+
+.galleryItem-h14 {
+    grid-row: span 14;
+}
+
+.galleryItem-h15 {
+    grid-row: span 15;
+}
+
+.galleryItem-h16 {
+    grid-row: span 16;
+}
+
+.galleryItem-h17 {
+    grid-row: span 17;
+}
+
+.galleryItem-h18 {
+    grid-row: span 18;
+}
+
+.galleryItem-h19 {
+    grid-row: span 19;
+}
+
+.galleryItem-h20 {
+    grid-row: span 20;
+}
+
+.galleryItem-h21 {
+    grid-row: span 21;
+}
+
+.galleryItem-h22 {
+    grid-row: span 22;
+} */
