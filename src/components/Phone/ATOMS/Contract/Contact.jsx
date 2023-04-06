@@ -4,19 +4,21 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="flex flex-col 
-    
-    h-screen w-full bg-[#09070A]"
+      className="flex flex-col w-screen bg-[#09070A] pt-10 pb-20"
     >
-      <div className="relative not-italic font-normal text-base leading-[160%] text-center align-middle text-white font-sora w-[40vw] left-[30vw] pt-10 justify-center ">
-        "Contact me if you want to elevate your brand's design game. And hey, if
-        you're in the mood for a latte, I'm down for that too."
+    <div className="m-auto">
+        <div className="not-italic font-normal text-base leading-[160%] text-center text-white font-sora w-[40vw] pt-10">
+          "Contact me if you want to elevate your brand's design game. And hey, if
+          you're in the mood for a latte, I'm down for that too."
+        </div>
+        <div className="w-[45px] m-auto">
+          <img
+          src="/assets/coffee.png"
+          className="pt-5 w-full"
+          alt=""
+        />
+        </div>
       </div>
-      <img
-        src="/assets/coffee.png"
-        className="relative w-[45px] left-[45vw] overflow-hidden pt-5 "
-        alt=""
-      />
       <ul className="flex gap-[2.5rem] pt-20 relative justify-center ">
         <li>
           <a href="https://instagram.com/singh__akansha">
