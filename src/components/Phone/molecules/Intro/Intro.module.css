@@ -1,3 +1,7 @@
+.IntroContainer {
+  background-image: url("/assets/BGLIQUIFY.svg");
+}
+
 .homePageTextContainer{
   display: flex;
   align-items: flex-end;

@@ -1,0 +1,19 @@
+.verticaltext{
+    font-family: 'TEX';
+    font-size: 20px;
+    color: #FFFFFF;
+    writing-mode: tb;
+    rotate: 180deg;
+    height: max-content;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-weight: 800;
+}
+
+.verticaltext:hover{
+    color: #cc66f0;
+    transform: scale(1.4);
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 600ms;
+}

@@ -18,7 +18,7 @@ const Intro = () => {
       
       <div
         name="home"
-        className="px-16 h-screen w-full flex gap-[1.5rem] items-center bg-[#20201e]"
+        className={style.IntroContainer + " px-16 h-screen w-full flex gap-[1.5rem] items-center bg-[#20201e]"}
       >
         <Link href="/Design" >
         <div className="absolute top-[80px] right-[40px] " >

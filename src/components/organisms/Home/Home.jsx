@@ -6,8 +6,6 @@ import Contact from '@/components/Phone/ATOMS/Contract/Contact'
 import Footer from '@/components/Phone/ATOMS/Footer/Footer'
 import React from "react";
 import Fade from "react-reveal/Fade";
-import Zoom from "react-reveal/Zoom";
-import Bounce from "react-reveal/Bounce";
 import {
   Animator,
   ScrollContainer,

@@ -1,6 +1,3 @@
-import Hey2 from '@/components/atoms/Hey/Hey2'
-import Text1 from '@/components/Phone/ATOMS/Text1/Text1'
-import Hey from '@/components/Phone/ATOMS/Hey/Hey2'
 import React from 'react'
 import Navbar from '@/components/Phone/molecules/Navbar/Navbar'
 import Intro from '@/components/Phone/molecules/Intro/Intro'
@@ -12,7 +9,6 @@ import { useContext } from 'react'
 import DropDown from '@/components/atoms/DropDown/DropDown'
 import Contact from '@/components/Phone/ATOMS/Contract/Contact'
 import Footer from '@/components/Phone/ATOMS/Footer/Footer'
-import Fade from "react-reveal/Fade";
 
 const HomePhone = () => {
   const {open,setOpen} = useContext(AkanshaContext);

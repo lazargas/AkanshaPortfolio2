@@ -36,7 +36,7 @@ export default function Home() {
     if (window != undefined){
       var wid =  window.innerWidth;
       console.log(wid);
-      if(wid<576)
+      if(wid<768)
       setPhone(true);
       else
       setPhone(false);

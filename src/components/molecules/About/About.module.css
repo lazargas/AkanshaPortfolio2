@@ -1,9 +1,40 @@
-.Container {position: absolute;
+.AboutContainer {
+  padding: 30px;
   display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 350px 1fr;
+  font-style: normal;
   width: 100%;
-  height: 100vh;
-  top:90%;
-  padding-top: 100px;
-  background: #272724;
-  
+  align-items: center;
+}
+
+.AboutImageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -10%;
+}
+
+.AboutImageContainer > img{
+  max-width: 700px;
+  width: 100%;
+}
+
+@media(max-width: 768px){
+  .AboutContainer {
+    padding: 20px;
+    grid-auto-flow: row;
+    grid-template-columns: auto;
+    grid-gap: 100px;
+  }
+
+    .AboutImageContainer {
+      position: unset;
+      padding: 0px 30px;
+    }
+
+    .AboutImageContainer > img {
+      min-width: 400px;
+    }
 }

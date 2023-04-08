@@ -43,7 +43,7 @@ const Navbar = () => {
   return (
     <>
       <div className={`bg-[#20201e] z-[6] sticky ${visible ? 'top-0' : ''} Container`}>
-      <div className="flex pt-7 justify-evenly bg-[#20201e] items-center ">
+      <div className="flex py-4 justify-evenly bg-[#20201e] items-center ">
           <div className="">
             <NavButton text="Home" Name="intro" />
           </div>
