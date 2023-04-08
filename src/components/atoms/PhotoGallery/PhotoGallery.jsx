@@ -9,7 +9,7 @@ const PhotoGallery = () => {
  
 
   
-  const [screenType, setScreenType] = useState(""); 
+  const [screenType, setScreenType] = useState("phoneScreen"); 
 
   
 

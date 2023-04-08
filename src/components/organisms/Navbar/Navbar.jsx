@@ -29,21 +29,27 @@ const Navbar = () => {
   let fileName = "resume";
   const handleClick = () => {
     fetch(pdfUrl)
-      .then(response => response.blob())
-      .then(blob => {
-        const url = window.URL.createObjectURL(new Blob([blob], {type: 'application/pdf'}));
-        const link = document.createElement('a');
+      .then((response) => response.blob())
+      .then((blob) => {
+        const url = window.URL.createObjectURL(
+          new Blob([blob], { type: "application/pdf" })
+        );
+        const link = document.createElement("a");
         link.href = url;
-        link.setAttribute('download', fileName);
+        link.setAttribute("download", fileName);
         document.body.appendChild(link);
         link.click();
         link.parentNode.removeChild(link);
       });
-  }
+  };
   return (
     <>
-      <div className={`bg-[#20201e] z-[6] sticky ${visible ? 'top-0' : ''} Container`}>
-      <div className="flex py-4 justify-evenly bg-[#20201e] items-center ">
+      <div
+        className={`bg-[#20201e] z-[6] sticky ${
+          visible ? "top-0" : ""
+        } Container`}
+      >
+        <div className="flex py-[20px] justify-between px-14 bg-[#20201e] items-center ">
           <div className="">
             <NavButton text="Home" Name="intro" />
           </div>
@@ -60,24 +66,18 @@ const Navbar = () => {
               alt=""
             />
           </div> */}
-          
+
           <div className=" ">
-            <button className=" cursor-none w-[162px] h-[39px] not-italic font-poppins text-xl leading-[30px] text-[#CC66F0] hover:text-[#fff] hover:transition-all duration-[0.5s] ease-[ease] ">
-              <Link to="projects" smooth={true} duration={500}>
-                PROJECTS
-              </Link>
-            </button>
+            <NavButton text="Projects" Name="projects" />
           </div>
           <div className="">
             <NavButton text="Contact" Name="contact" />
           </div>
           <div className=" ">
-            <button onClick={handleClick} className=" cursor-none w-[162px] h-[39px] not-italic font-poppins font-semibold pt-1 pl-2 pr-2 text-l leading-[30px] text-[#fff] rounded-[22px] border-[1.5px] border-solid border-[#CC66F0] hover:border-[#fff] hover:text-[#CC66F0] hover:transition-all duration-[0.5s] ease-[ease] ">
-              DOWNLOAD CV
-            </button>
+            <NavButton onClick={handleClick} text="DOWNLOAD CV" Name="CV" />
           </div>
         </div>
-    </div>
+      </div>
     </>
   );
 };
