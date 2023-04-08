@@ -1,5 +1,5 @@
 .AboutContainer {
-  padding: 30px;
+  padding: 40px;
   display: grid;
   grid-gap: 20px;
   grid-template-columns: 350px 1fr;
@@ -23,7 +23,7 @@
 
 @media(max-width: 768px){
   .AboutContainer {
-    padding: 20px;
+    padding: 40px 20px;
     grid-auto-flow: row;
     grid-template-columns: auto;
     grid-gap: 100px;
@@ -32,9 +32,5 @@
     .AboutImageContainer {
       position: unset;
       padding: 0px 30px;
-    }
-
-    .AboutImageContainer > img {
-      min-width: 400px;
     }
 }

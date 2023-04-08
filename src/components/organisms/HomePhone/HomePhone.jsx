@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '@/components/Phone/molecules/Navbar/Navbar'
 import Intro from '@/components/Phone/molecules/Intro/Intro'
-import About from '@/components/Phone/molecules/About/About'
+import About from '@/components/molecules/About/About'
 import Skills from '@/components/Phone/molecules/Skills/Skills'
 import Projects from '@/components/Phone/ATOMS/Projects/Projects'
 import { AkanshaContext } from '@/Context/Akansha'

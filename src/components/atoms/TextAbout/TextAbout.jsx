@@ -3,9 +3,7 @@ import style from "./TextAbout.module.css";
 import {Typewriter} from 'react-simple-typewriter'
 
 const TextAbout = () => {
-
-
-
+  
   return (
       <div className={style.AboutContainerText}>
         <div className="text-[22px] leading-7 text-white font-sora">

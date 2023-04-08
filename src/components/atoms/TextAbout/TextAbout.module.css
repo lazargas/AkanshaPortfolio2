@@ -12,3 +12,12 @@
     color: #CC66F0;
     min-height: 192px;;
 }
+
+@media(max-width: 768px) {
+    .AboutTypingText {
+            font-family: 'LEMON MILK', sans-serif;
+            font-size: 50px;
+            color: #CC66F0;
+            min-height: 192px;
+        }
+}
