@@ -18,10 +18,10 @@ const Projects = () => {
                     />
               </div>
             </Link>
-            <Link href="/sweetScapes">
+            <Link href="/cyclebecho">
               <div className={style.ProjectTile2}>
                     <img
-                      src="/assets/purp1.png"
+                      src="/assets/yellow 1.png"
                       className={"z-[2] opacity-0 hover:transition-all hover:duration-[0.6s] hover:ease-[ease] "+style.imtip}
                       alt=""
                     />
@@ -29,19 +29,19 @@ const Projects = () => {
             </Link>
           </div>
           <div className={style.ProjectGroup}>
-            <Link href="/sweetScapes">
+            <Link href="/miscellaneous">
               <div className={style.ProjectTile4}>
                     <img
-                      src="/assets/purp1.png"
+                      src="/assets/white 1.png"
                       className={"z-[2] opacity-0 hover:transition-all hover:duration-[0.6s] hover:ease-[ease] "+style.imtip}
                       alt=""
                     />
               </div>
             </Link>
-            <Link href="/sweetScapes">
+            <Link href="/bakeit">
               <div className={style.ProjectTile3}>
                     <img
-                      src="/assets/purp1.png"
+                      src="/assets/grey 1.png"
                       className={"z-[2] opacity-0 hover:transition-all hover:duration-[0.6s] hover:ease-[ease] "+style.imtip}
                       alt=""
                     />

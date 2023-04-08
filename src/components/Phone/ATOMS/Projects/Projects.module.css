@@ -61,7 +61,37 @@
     width: 50%;
 }
 
-@media(max-width:992px){
+@media(max-width:992px) {
+    .ProjectContainer {
+        gap: 28px;
+    }
+
+    .ProjectTile1,
+    .ProjectTile2,
+    .ProjectTile3,
+    .ProjectTile4 {
+        width: 160px;
+    }
+
+    .ProjectTile1 {
+        height: 190px;
+    }
+
+    .ProjectTile2 {
+        height: 320px;
+    }
+
+    .ProjectTile3 {
+        height: 210px;
+    }
+
+    .ProjectTile4 {
+        height: 200px;
+    }
+
+}
+
+@media(max-width:768px){
     .ProjectContainer {
         padding: 20px;
         display: grid;
