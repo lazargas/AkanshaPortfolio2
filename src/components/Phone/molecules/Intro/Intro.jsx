@@ -18,17 +18,16 @@ const Intro = () => {
       
       <div
         name="home"
-        className={style.IntroContainer + " px-16 h-screen w-full flex gap-[1.5rem] items-center bg-[#20201e]"}
+        className={style.IntroContainer + " h-screen w-full flex gap-[1.5rem] items-center bg-[#20201e]"}
       >
         <Link href="/Design" >
-        <div className="absolute top-[90px] right-[20px] " >
+        <div className={style.DesignLinkContainer} >
           <img src="/assets/sun2.png" className="absolute top-[10px] right-[11px] " alt="" />
-        <img
-        src="/assets/sun.png"
-        alt=""
-        className={style.rotate}
-      />
-      
+          <img
+          src="/assets/sun.png"
+          alt=""
+          className={style.rotate}
+        />
         </div>
         </Link>
         <div className={style.homePageTextContainer}>

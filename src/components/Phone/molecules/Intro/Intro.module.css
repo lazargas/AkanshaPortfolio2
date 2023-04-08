@@ -1,5 +1,13 @@
 .IntroContainer {
   background-image: url("/assets/BGLIQUIFY.svg");
+  background-size: cover;
+  padding: 0px 4rem;
+}
+
+.DesignLinkContainer{
+  position: absolute;
+  top: 30px;
+  right: 20px;
 }
 
 .homePageTextContainer{
@@ -21,7 +29,17 @@
    }
 
   
-@media(max-width : 576px){
+@media(max-width : 768px){
+  .IntroContainer {
+      padding: 0px 2rem;
+    }
+
+    .DesignLinkContainer {
+      position: absolute;
+      top: 80px;
+      right: 20px;
+    }
+
   .homePageTextContainer {
       flex-direction: column;
       align-items: flex-start;

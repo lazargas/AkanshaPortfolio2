@@ -40,7 +40,7 @@
     }
 }
 
-@media(max-width : 576px){
+@media(max-width : 768px){
   .lolodile{
         display: flex;
         margin: 0px 0 10px -4px;
