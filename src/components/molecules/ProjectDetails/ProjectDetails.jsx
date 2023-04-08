@@ -8,7 +8,7 @@ const ProjectDetails = ({headerText, gifSrcObj, caseStudyLinkObj, styleObj}) => 
   const scrollRef = useHorizontalScroll();
 
   return (
-    <div ref={scrollRef} className={style.projectDetailsContainer+ " px-0"} style={{backgroundColor:styleObj.backgroundColor, color: styleObj.textColor}}>
+    <div ref={scrollRef} className={style.projectDetailsContainer+ " px-0"} style={{backgroundColor:styleObj.backgroundColor, color: styleObj.textColor,}}>
         <div className={style.projectDetailsHeader}>
           {headerText}
         </div>

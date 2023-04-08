@@ -24,7 +24,13 @@ const Design = () => {
           akansha singh
         </p>
       </div>
+      <div className="" >
+      
+      </div>
       <PhotoGallery />
+      <div>
+
+      </div>
     </div>
   );
 };

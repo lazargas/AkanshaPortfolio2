@@ -5,19 +5,26 @@ import {desktopGalleryItems, phoneGalleryItems} from "../../../Utils/data/Orient
 
 
 const PhotoGallery = () => {
+  
+ 
 
-  const [screenType, setScreenType] = useState((window.innerWidth < 768) ? "phoneScreen" : "desktopScreen"); 
+  
+  const [screenType, setScreenType] = useState(""); 
 
+  
 
   useEffect(()=> {
-    window.addEventListener('resize', ()=> {
-      if (window.innerWidth < 768){
-        setScreenType("phoneScreen");
-      } else {
-        setScreenType("desktopScreen");
-      }
-    })
-  }, [])
+    if (typeof window !== "undefined") {
+      window.addEventListener('resize', ()=> {
+        if (window.innerWidth < 768){
+          setScreenType("phoneScreen");
+        } else {
+          setScreenType("desktopScreen");
+        }
+      })
+    }
+    
+  })
 
   return (
     <div  className={`${styles.galleryContainer}`}>

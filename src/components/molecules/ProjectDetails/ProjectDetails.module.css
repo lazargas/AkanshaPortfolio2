@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'ntf-grand';
+    src: local('ntf-grand'), url(/public/static/fonts/ntf-grand-bold.otf) format('otf');
+  }
+
 .projectDetailsContainer{
     display: flex;
     align-items: center;
@@ -7,6 +12,8 @@
     font-family: 'grand';
     background-color: red;
     color: #FFFFFF;
+    scroll-behavior: smooth;
+    font-family: 'ntf-grand';
 }
 
 .projectDetailsHeader{

@@ -1,10 +1,10 @@
 .D {
   z-index: 2;
   position: absolute;
-  
-  left: 0px;
+
+  left: 60px;
   top: 40vh;
-  
+
   font-family: "Impact";
   font-style: normal;
   font-weight: 400;
@@ -18,8 +18,8 @@
 .e {
   z-index: 2;
   position: absolute;
- 
-  left: 12vw;
+
+  left: 16vw;
   top: 45vh;
 
   font-family: "Impact";
@@ -35,7 +35,7 @@
 .i {
   position: absolute;
 
-  left: 70px;
+  left: 130px;
   top: 68vh;
   z-index: 2;
   font-family: "Impact";
@@ -50,8 +50,8 @@
 
 .s {
   position: absolute;
-  
-  left: 110px;
+
+  left: 140px;
   top: 40vh;
 
   font-family: "Impact";
@@ -68,7 +68,7 @@
 .g {
   position: absolute;
 
-  left: 110px;
+  left: 160px;
   top: 62vh;
 
   font-family: "Impact";
@@ -84,9 +84,9 @@
 
 .N {
   position: absolute;
-  
-  left: 180px;
-  top: 65vh;
+
+  left: 230px;
+  top: 59vh;
 
   font-family: "Impact";
   font-style: normal;
@@ -99,18 +99,16 @@
   z-index: 2;
 }
 
-.rotate{
+.rotate {
   animation: loading 8s linear infinite;
   position: relative;
-  
-  
- }
+}
 
- @keyframes loading {
-  0% { 
-    transform: rotate(360deg); 
+@keyframes loading {
+  0% {
+    transform: rotate(360deg);
   }
-  100% { 
+  100% {
     transform: rotate(0deg);
   }
- }
+}
