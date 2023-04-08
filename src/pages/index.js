@@ -33,13 +33,15 @@ export default function Home() {
   const [phone,setPhone] = useState(false);
   
   useEffect(()=>{
-    var wid =  window.innerWidth;
-    console.log(wid);
-    if(wid<=640)
-    setPhone(true);
-    else
-    setPhone(false);
-  },[]);
+    if (window != undefined){
+      var wid =  window.innerWidth;
+      console.log(wid);
+      if(wid<576)
+      setPhone(true);
+      else
+      setPhone(false);
+    }
+  });
 
 
 
@@ -90,17 +92,10 @@ export default function Home() {
         </div>
       ) : (
         <div>
-        <HomePhone/>
-        
-         </div>
+          {phone ? <HomePhone /> : <HomePage />}
+        </div>
         
       )}
     </div>
   );
 }
-
-  {/* <motion.div
-        className={style.cursor}
-        variants={variants}
-        animate={cursorVariant}
-      />  */}
