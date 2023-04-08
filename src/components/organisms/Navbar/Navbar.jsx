@@ -25,6 +25,21 @@ const Navbar = () => {
 
     return () => window.removeEventListener("scroll", handleScroll);
   });
+  let pdfUrl = "/assets/resume/RESUME.pdf";
+  let fileName = "resume";
+  const handleClick = () => {
+    fetch(pdfUrl)
+      .then(response => response.blob())
+      .then(blob => {
+        const url = window.URL.createObjectURL(new Blob([blob], {type: 'application/pdf'}));
+        const link = document.createElement('a');
+        link.href = url;
+        link.setAttribute('download', fileName);
+        document.body.appendChild(link);
+        link.click();
+        link.parentNode.removeChild(link);
+      });
+  }
   return (
     <>
       <div className={`bg-[#20201e] z-[6] sticky ${visible ? 'top-0' : ''} Container`}>
@@ -47,7 +62,7 @@ const Navbar = () => {
           </div>
           ''
           <div className="relative left-[250px] ">
-            <button className=" cursor-none w-[162px] h-[39px] not-italic font-poppins text-xl leading-[30px] text-[#FFF] hover:text-[#CC66F0] hover:transition-all duration-[0.5s] ease-[ease] ">
+            <button className=" cursor-none w-[162px] h-[39px] not-italic font-poppins text-xl leading-[30px] text-[#CC66F0] hover:text-[#fff] hover:transition-all duration-[0.5s] ease-[ease] ">
               <Link to="projects" smooth={true} duration={500}>
                 PROJECTS
               </Link>
@@ -57,7 +72,7 @@ const Navbar = () => {
             <NavButton text="Contact" Name="contact" />
           </div>
           <div className="relative left-[320px] ">
-            <button className=" cursor-none w-[162px] h-[39px] not-italic font-poppins font-semibold pt-1 pl-2 pr-2 text-l leading-[30px] text-[#fff] rounded-[22px] border-[1.5px] border-solid border-[#CC66F0]">
+            <button onClick={handleClick} className=" cursor-none w-[162px] h-[39px] not-italic font-poppins font-semibold pt-1 pl-2 pr-2 text-l leading-[30px] text-[#fff] rounded-[22px] border-[1.5px] border-solid border-[#CC66F0] hover:border-[#fff] hover:text-[#CC66F0] hover:transition-all duration-[0.5s] ease-[ease] ">
               DOWNLOAD CV
             </button>
           </div>

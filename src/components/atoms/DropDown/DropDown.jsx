@@ -13,6 +13,21 @@ const DropDown = () => {
   const handleclickbutton = () => {
     setOpen(false);
  }
+ let pdfUrl = "/assets/resume/RESUME.pdf";
+  let fileName = "resume";
+  const handleClick = () => {
+    fetch(pdfUrl)
+      .then(response => response.blob())
+      .then(blob => {
+        const url = window.URL.createObjectURL(new Blob([blob], {type: 'application/pdf'}));
+        const link = document.createElement('a');
+        link.href = url;
+        link.setAttribute('download', fileName);
+        document.body.appendChild(link);
+        link.click();
+        link.parentNode.removeChild(link);
+      });
+  }
   return (
     <div className=' z-[5] fixed h-screen w-full bg-[#20201e] ' >
            <button onClick={handleclick} >
@@ -41,7 +56,7 @@ const DropDown = () => {
           </Link>
             </li>
             
-            <li className='hover:text-white hover:ease-in  cursor-none ' >DOWNLOAD RESUME</li>
+            <li onClick={handleClick} className='hover:text-white hover:ease-in  cursor-none ' >DOWNLOAD RESUME</li>
           </ul>
     </div>
   )

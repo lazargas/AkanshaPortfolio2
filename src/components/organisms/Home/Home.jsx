@@ -1,8 +1,9 @@
 import About from "@/components/molecules/About/About";
-import Footer from "@/components/molecules/Footer/Footer";
 import Intro from "@/components/Phone/molecules/Intro/Intro";
-import Projects from "@/components/molecules/Projects/Projects";
+import Projects from "@/components/Phone/ATOMS/Projects/Projects";
 import Skills from "@/components/molecules/Skills/Skills";
+import Contact from '@/components/Phone/ATOMS/Contract/Contact'
+import Footer from '@/components/Phone/ATOMS/Footer/Footer'
 import React from "react";
 import Fade from "react-reveal/Fade";
 import Zoom from "react-reveal/Zoom";
@@ -50,7 +51,8 @@ const Home = () => {
         </div>
       </Fade>
       <div>
-        <Footer />
+      <Contact/>
+    <Footer/>
       </div>
     </div>
     </div>
