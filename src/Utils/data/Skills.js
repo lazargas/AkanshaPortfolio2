@@ -1,54 +1,71 @@
 let skills = [
     {
-        "text": "3d visualization"
+        "text": "3d visualization",
+        "text-color": undefined
     },
     {
-        "text": "photoshop"
+        "text": "photoshop",
+        "text-color": undefined
     },
     {
-        "text": "graphic designing"
+        "text": "graphic designing",
+        "text-color": "#cc66f0"
     },
     {
-        "text": "figma"
+        "text": "figma",
+        "text-color": undefined
     },
     {
-        "text": "adobe xd"
+        "text": "adobe xd",
+        "text-color": undefined
     },
     {
-        "text": "illustrator"
+        "text": "illustrator",
+        "text-color": undefined
     },
     {
-        "text": "indesign"
+        "text": "indesign",
+        "text-color": undefined
     },
     {
-        "text": "architechture"
+        "text": "architechture",
+        "text-color": undefined
     },
     {
-        "text": "html"
+        "text": "html",
+        "text-color": undefined
     },
     {
-        "text": "ui/ux designing"
+        "text": "ui/ux designing",
+        "text-color": "#cc66f0"
     },
     {
-        "text": "revit"
+        "text": "revit",
+        "text-color": undefined
     },
     {
-        "text": "filmora"
+        "text": "filmora",
+        "text-color": undefined
     },
     {
-        "text": "after affects"
+        "text": "after affects",
+        "text-color": undefined
     },
     {
-        "text": "css"
+        "text": "css",
+        "text-color": undefined
     },
     {
-        "text": "wireframing"
+        "text": "wireframing",
+        "text-color": undefined
     },
     {
-        "text": "prototyping"
+        "text": "prototyping",
+        "text-color": undefined
     },
     {
-        "text": "animation"
+        "text": "animation",
+        "text-color": undefined
     }
 ];
 
