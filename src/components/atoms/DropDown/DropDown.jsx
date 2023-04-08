@@ -55,7 +55,11 @@ const DropDown = () => {
             PROJECTS
           </Link>
             </li>
-            
+            <li>
+            <Link className='hover:text-white  cursor-none ' onClick={handleclickbutton} to="contact" smooth={true} duration={500}>
+            CONTACT
+          </Link>
+            </li>
             <li onClick={handleClick} className='hover:text-white hover:ease-in  cursor-none ' >DOWNLOAD RESUME</li>
           </ul>
     </div>

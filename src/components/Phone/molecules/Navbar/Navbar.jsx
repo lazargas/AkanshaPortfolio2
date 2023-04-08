@@ -12,7 +12,7 @@ const Navbar = () => {
   }
   console.log(open);
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#20201e] z-[10] ' >
+    <div className='fixed w-full h-[60px] flex justify-between items-center px-4 bg-[#20201e] z-[10] ' >
     <div className=' left-[18px] top-[22px]'>
         <img src="/assets/logo2.png" className=' w-[95px] h-[41px]' alt="" />
     </div>
