@@ -12,7 +12,7 @@
     font-family: 'grand';
     background-color: red;
     color: #FFFFFF;
-    scroll-behavior: smooth;
+    
     font-family: 'ntf-grand';
 }
 
@@ -20,6 +20,7 @@
     letter-spacing: 50px;
     font-size: 550px;
     margin-right: 50px;
+        height: calc(var(--100vh) * .9);
 }
 
 .projectsDetailsPreview{

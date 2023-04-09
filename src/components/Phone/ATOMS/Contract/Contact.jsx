@@ -11,10 +11,10 @@ const Contact = () => {
           "Contact me if you want to elevate your brand's design game. And hey, if
           you're in the mood for a latte, I'm down for that too."
         </div>
-        <div className="w-[45px] m-auto">
+        <div className="w-[55px] m-auto">
           <img
-          src="/assets/coffee.png"
-          className="pt-5 w-full"
+          src="/assets/icons/coffee.png"
+          className="pt-5 w-[80px]"
           alt=""
         />
         </div>
@@ -22,19 +22,19 @@ const Contact = () => {
       <ul className="flex gap-[2.5rem] pt-20 relative justify-center ">
         <li>
           <a href="https://instagram.com/singh__akansha">
-          <img src="/assets/phoneInsta.png" alt="" />
+          <img src="/assets/icons/instagram.svg" className="w-[55px]" alt="" />
           </a>
           
         </li>
         <li>
-          <a href="mailto:akarshsrivastv@gmail.com">
-          <img src="/assets/phoneGmail.png" alt="" />
+          <a href="mailto:akanshasingh95720@gmail.com">
+          <img src="/assets/icons/gmail.svg" className="relative bottom-1" alt="" />
           </a>
           
         </li>
         <li>
         <a href="">
-          <img src="/assets/phoneLinkedIn.png" alt="" />
+          <img src="/assets/icons/linkedin.svg" className="w-[55px]"  alt="" />
           </a>
         </li>
       </ul>

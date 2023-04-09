@@ -4,7 +4,7 @@ import Fade from "react-reveal/Fade";
 
 const SweetScapes = () => {
 
-  let headerText = "SWEETSCAPES";
+  let headerText = "assets/icons/SWEETSCAPES.svg";
   let gifSrcObj = {
     src:"/assets/videos/sweetscapes.gif",
     className: "object-cover h-[600px] w-[300px]",

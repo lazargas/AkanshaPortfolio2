@@ -18,7 +18,7 @@ const test3 = () => {
     }, 1400);
   }, []);
 
-  let headerText = "CYCLEBECHO.COM";
+  let headerURL = "/assets/icons/CYCLEBECHO.COM.svg";
   let gifSrcObj = {
     src:"/assets/videos/cyclebecho1.gif",
     className: "object-cover h-[600px] w-[300px]",
@@ -36,7 +36,7 @@ const test3 = () => {
   return (
    
       <Fade duration={1500} >
-      <ProjectDetails headerText={headerText} gifSrcObj={gifSrcObj} caseStudyLinkObj={caseStudyLinkObj} styleObj={styleObj} />
+      <ProjectDetails headerText={headerURL} gifSrcObj={gifSrcObj} caseStudyLinkObj={caseStudyLinkObj} styleObj={styleObj} />
       </Fade>
       
     

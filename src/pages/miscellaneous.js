@@ -3,15 +3,16 @@ import React from "react";
 import Fade from "react-reveal/Fade";
 const MiscellaneousProject = () => {
 
-  let headerText = "MISCELLANEOUS";
+  let headerText = "assets/icons/MISCELLANEOUS.svg";
   let gifSrcObj = {
     src:"/assets/videos/toronto.gif",
-    className: "object-cover h-[500px] w-auto sm:h-[300px] sm:w-[500px]",
+    src1:"/assets/videos/cakeshop.gif",
+    className: " ml-[30px] object-cover h-[500px] w-auto sm:h-[300px] sm:w-[500px]",
     alt:"miscellaneousProjectGif"
   }
   let caseStudyLinkObj = {}
   let styleObj = {
-    backgroundColor: "#CC66F0",
+    backgroundColor: "#FFF",
     textColor: "black"
   }
 
