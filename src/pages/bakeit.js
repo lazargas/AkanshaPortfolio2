@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectDetails from "@/components/molecules/ProjectDetails/ProjectDetails";
-
+import Fade from "react-reveal/Fade";
 const Page1 = () => {
 
   let headerText = "BAKEit!";
@@ -19,7 +19,9 @@ const Page1 = () => {
   }
 
   return (
+    <Fade>
     <ProjectDetails headerText={headerText} gifSrcObj={gifSrcObj} caseStudyLinkObj={caseStudyLinkObj} styleObj={styleObj} />
+    </Fade>
   );
 };
 

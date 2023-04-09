@@ -7,6 +7,7 @@ import {
   RotateLoader,
   SyncLoader
 } from "react-spinners";
+import Fade from "react-reveal/Fade";
 
 const test3 = () => {
   const [loader, setLoader] = useState(false);
@@ -34,9 +35,9 @@ const test3 = () => {
 
   return (
    
-      <div>
+      <Fade duration={1500} >
       <ProjectDetails headerText={headerText} gifSrcObj={gifSrcObj} caseStudyLinkObj={caseStudyLinkObj} styleObj={styleObj} />
-  </div>
+      </Fade>
       
     
    

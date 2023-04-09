@@ -9,6 +9,7 @@ import { useContext } from 'react'
 import DropDown from '@/components/atoms/DropDown/DropDown'
 import Contact from '@/components/Phone/ATOMS/Contract/Contact'
 import Footer from '@/components/Phone/ATOMS/Footer/Footer'
+import Fade from "react-reveal/Fade";
 
 const HomePhone = () => {
   const {open,setOpen} = useContext(AkanshaContext);
@@ -16,12 +17,27 @@ const HomePhone = () => {
     <div className='bg-[#20201e] w-full' >
      {open?<DropDown/>:<Navbar/>}
     
-    <Intro/>
-    <About/>
-    <Skills/>
-    <Projects/>
-    <Contact/>
+     <Fade duration={2500}>
+        <div >
+          <Intro />
+        </div>
+      </Fade>
+        <Fade duration={1250} >
+        <div>
+          <About />
+        </div>
+        <div>
+          <Skills />
+        </div>
+        <div>
+          <Projects />
+        </div>
+        <div>
+      <Contact/>
     <Footer/>
+      </div>
+      </Fade>
+
     
     </div>
     

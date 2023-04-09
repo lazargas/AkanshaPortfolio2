@@ -1,6 +1,6 @@
 import ProjectDetails from "@/components/molecules/ProjectDetails/ProjectDetails";
 import React from "react";
-
+import Fade from "react-reveal/Fade";
 const MiscellaneousProject = () => {
 
   let headerText = "MISCELLANEOUS";
@@ -16,7 +16,9 @@ const MiscellaneousProject = () => {
   }
 
   return (
+    <Fade duration={1000} >
     <ProjectDetails headerText={headerText} gifSrcObj={gifSrcObj} caseStudyLinkObj={caseStudyLinkObj} styleObj={styleObj} />
+    </Fade>
   );
 };
 

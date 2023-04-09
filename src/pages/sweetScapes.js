@@ -1,5 +1,6 @@
 import ProjectDetails from "@/components/molecules/ProjectDetails/ProjectDetails";
 import React from "react";
+import Fade from "react-reveal/Fade";
 
 const SweetScapes = () => {
 
@@ -16,7 +17,9 @@ const SweetScapes = () => {
   }
 
   return (
+    <Fade duration={1500} >
     <ProjectDetails  headerText={headerText} gifSrcObj={gifSrcObj} caseStudyLinkObj={caseStudyLinkObj} styleObj={styleObj} />
+    </Fade>
   );
 };
 
