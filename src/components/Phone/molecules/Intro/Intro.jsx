@@ -28,6 +28,9 @@ const Intro = () => {
           alt=""
           className={style.rotate}
         />
+        <p className="text-white font-tex pt-3 text-[12px] ml-3" >
+          Click me
+        </p>
         </div>
         </Link>
         <div className={style.homePageTextContainer}>

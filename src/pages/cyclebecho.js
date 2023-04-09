@@ -1,7 +1,21 @@
-import React from 'react';
+import React,{useState,useEffect} from 'react';
 import ProjectDetails from "@/components/molecules/ProjectDetails/ProjectDetails";
+import {
+  BarLoader,
+  ClimbingBoxLoader,
+  MoonLoader,
+  RotateLoader,
+  SyncLoader
+} from "react-spinners";
 
 const test3 = () => {
+  const [loader, setLoader] = useState(false);
+  useEffect(() => {
+    setLoader(true);
+    setTimeout(() => {
+      setLoader(false);
+    }, 1400);
+  }, []);
 
   let headerText = "CYCLEBECHO.COM";
   let gifSrcObj = {
@@ -19,9 +33,13 @@ const test3 = () => {
   }
 
   return (
-    <div>
-        <ProjectDetails headerText={headerText} gifSrcObj={gifSrcObj} caseStudyLinkObj={caseStudyLinkObj} styleObj={styleObj} />
-    </div>
+   
+      <div>
+      <ProjectDetails headerText={headerText} gifSrcObj={gifSrcObj} caseStudyLinkObj={caseStudyLinkObj} styleObj={styleObj} />
+  </div>
+      
+    
+   
   )
 }
 

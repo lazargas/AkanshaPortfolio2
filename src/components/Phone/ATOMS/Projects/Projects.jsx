@@ -2,12 +2,23 @@ import React from "react";
 import Link from "next/link";
 import Marquee from "../Marquee/Marquee";
 import style from "./Projects.module.css";
+import { useState } from "react";
 
 const Projects = () => {
+  const [loading, setLoading] = useState(false)
+
+  const handleClick = (e) => {
+    e.preventDefault()
+    setLoading(true)
+    setTimeout(() => {
+      window.location.href = e.currentTarget.href
+    }, 500)
+  }
   return (
     <div name="projects" className="w-full bg-[#20201e] pt-14">
       <Marquee/>
       <div className={style.ProjectContainer}>
+        
         <div className={style.ProjectGroup}>
             <Link href="/sweetScapes">
               <div className={style.ProjectTile1}>
@@ -16,7 +27,9 @@ const Projects = () => {
                       className={"z-[2] opacity-0 hover:transition-all hover:duration-[0.6s] hover:ease-[ease] "+style.imtip}
                       alt=""
                     />
+                    
               </div>
+              <p className="text-white text-[24px] font-sora pt-2 sm:text-[10px]" >Hover me!</p>
             </Link>
             <Link href="/cyclebecho">
               <div className={style.ProjectTile2}>
