@@ -2,11 +2,21 @@ import React from "react";
 import Link from "next/link";
 import Marquee from "../Marquee/Marquee";
 import style from "./Projects.module.css";
-import { useState } from "react";
+import { useState,useEffect } from "react";
 
 const Projects = () => {
-  const [loading, setLoading] = useState(false)
-
+  const [loading, setLoading] = useState(false);
+  const [phone,setPhone] = useState(false);
+  useEffect(()=>{
+    if (window != undefined){
+      var wid =  window.innerWidth;
+      console.log(wid);
+      if(wid<768)
+      setPhone(true);
+      else
+      setPhone(false);
+    }
+  });
   const handleClick = (e) => {
     e.preventDefault()
     setLoading(true)
@@ -29,7 +39,7 @@ const Projects = () => {
                     />
                     
               </div>
-              <p className="text-white text-[24px] font-sora pt-2 sm:text-[10px]" >Hover me!</p>
+              {phone?<p className="text-white text-[24px] font-sora pt-2 sm:text-[10px]" >Click me!</p>:<p className="text-white text-[24px] font-sora pt-2 sm:text-[10px]" >Hover me!</p>}
             </Link>
             <Link href="/cyclebecho">
               <div className={style.ProjectTile2}>

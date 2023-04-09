@@ -3,7 +3,7 @@ import ProjectDetails from "@/components/molecules/ProjectDetails/ProjectDetails
 import Fade from "react-reveal/Fade";
 const Page1 = () => {
 
-  let headerText = "/assets/icons/bake.svg";
+  let headerText = "BAKEit!";
   let gifSrcObj = {
     src:"/assets/videos/bakeit.gif",
     className: "object-cover h-[600px] w-[300px]",

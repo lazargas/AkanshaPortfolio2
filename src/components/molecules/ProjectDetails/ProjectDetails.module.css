@@ -1,56 +1,60 @@
+
 @font-face {
-    font-family: 'ntf-grand';
-    src: local('ntf-grand'), url(/public/static/fonts/ntf-grand-bold.otf) format('otf');
+    font-family: "Fontspring-DEMO-obvia_medium";
+    src: local("Fontspring-DEMO-obvia_medium"),
+      url(/public/static/fonts/Fontspring-DEMO-obvia_medium.otf) format("otf");
   }
 
-.projectDetailsContainer{
-    display: flex;
-    align-items: center;
-    height: calc(103vh - 4px);
-    overflow: scroll clip;
-    margin-top: -20px;
-    font-family: 'grand';
-    background-color: red;
-    color: #FFFFFF;
-    
-    font-family: 'ntf-grand';
+
+.projectDetailsContainer {
+  display: flex;
+  align-items: center;
+  height: calc(103vh - 4px);
+  overflow: scroll clip;
+  margin-top: -20px;
+  font-family: "grand";
+  background-color: red;
+  color: #ffffff;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.projectDetailsHeader{
-    letter-spacing: 50px;
-    font-size: 550px;
-    margin-right: 50px;
-        height: calc(var(--100vh) * .9);
+.projectDetailsHeader {
+  letter-spacing: 50px;
+  font-size: 550px;
+  margin-right: 50px;
+  height: calc(var(--100vh) * 0.9);
 }
 
-.projectsDetailsPreview{
-    display: grid;
-    grid-template-columns: minmax(300px,600px) minmax(30px,300px);
-    align-items: center;
+.projectsDetailsPreview {
+  display: grid;
+  grid-template-columns: minmax(300px, 600px) minmax(30px, 300px);
+  align-items: center;
 }
 
 /* .projectDetailsPreviewGif{
 } */
 
-.projectsCaseStudyLink{
-    display: flex;
-    flex-direction: column-reverse;
-    height: auto;
-    width: max-content;
-    margin-left:40px;
-    padding: 10px;
+.projectsCaseStudyLink {
+  display: flex;
+  flex-direction: column-reverse;
+  height: auto;
+  width: max-content;
+  margin-left: 40px;
+  padding: 10px;
 }
 
 .projectsCaseStudyLink > img {
-    height: 60px;
-    width: auto;
-    margin-left: -15px;
-    --tw-invert: invert(100);
-    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+  height: 60px;
+  width: auto;
+  margin-left: -15px;
+  --tw-invert: invert(100);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast)
+    var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate)
+    var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .projectsCaseStudyLink p {
-    letter-spacing: 0.025rem;
-    font-size: 18px;
-    max-width: 200px;
+  letter-spacing: 0.025rem;
+  font-size: 18px;
+  max-width: 200px;
 }

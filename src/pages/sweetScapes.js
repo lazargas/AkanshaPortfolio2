@@ -1,10 +1,9 @@
 import ProjectDetails from "@/components/molecules/ProjectDetails/ProjectDetails";
 import React from "react";
-import Fade from "react-reveal/Fade";
 
 const SweetScapes = () => {
 
-  let headerText = "assets/icons/SWEETSCAPES.svg";
+  let headerText = "SWEETSCAPES";
   let gifSrcObj = {
     src:"/assets/videos/sweetscapes.gif",
     className: "object-cover h-[600px] w-[300px]",
@@ -17,9 +16,7 @@ const SweetScapes = () => {
   }
 
   return (
-    <Fade duration={1500} >
     <ProjectDetails  headerText={headerText} gifSrcObj={gifSrcObj} caseStudyLinkObj={caseStudyLinkObj} styleObj={styleObj} />
-    </Fade>
   );
 };
 

@@ -19,7 +19,7 @@
 
   @font-face {
     font-family: 'rajdhani';
-    src: local('rajdhani'), url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap') format('ttf');
+    src: local('rajdhani'), url(/public/static/fonts/Rajdhani-Bold.ttf) format('ttf');
   } 
 
   ::-webkit-scrollbar {
