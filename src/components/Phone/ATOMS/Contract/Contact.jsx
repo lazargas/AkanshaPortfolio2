@@ -22,7 +22,7 @@ const Contact = () => {
         <div className="w-[55px] m-auto">
           <img
           src="/assets/icons/cup.png"
-          className="pt-5 relative left-[-10px] max-w-[90px] "
+          className="pt-5 relative left-[-15px] max-w-[90px] "
           alt=""
         />
         </div>
