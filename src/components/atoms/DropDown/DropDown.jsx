@@ -33,7 +33,7 @@ const DropDown = () => {
            <button onClick={handleclick} >
             <img src="/assets/cross.png" className='absolute left-5 h-[40px]' alt="" />
            </button>
-          <ul className='relative font-tex text-[800] tracking-widest text-center top-[30vh]  not-italic font-normal text-xl leading-[45px] text-[#CC66F0]' >
+          <ul className='relative font-justDance tracking-[25px] text-center top-[30vh]  not-italic font-normal text-xl leading-[45px] text-[#CC66F0]' >
           <li>
           <Link className='hover:text-white  cursor-none ' onClick={handleclickbutton}  to="home" smooth={true} duration={500}>
             HOME
