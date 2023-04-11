@@ -34,7 +34,7 @@ const Projects = () => {
               <div className={style.ProjectTile1}>
                     <img
                       src="/assets/purp1.png"
-                      className={"z-[2] opacity-0 hover:transition-all hover:duration-[0.6s] hover:ease-[ease] "+style.imtip}
+                      className={"z-[2] opacity-0 hover:opacity-100 hover:transition-all hover:duration-[0.6s] hover:ease-[ease] "+style.imtip}
                       alt=""
                     />
                     

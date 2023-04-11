@@ -26,7 +26,9 @@ module.exports = {
         'poppins':['Poppins'],
         'tex':['TEX'],
         'grand':['ntf-grand'],
-        'rajdhani':['rajdhani']
+        'rajdhani':['rajdhani'],
+        'obvia':['obvia'],
+        "justDance":['justDance']
       }, 
     },
 

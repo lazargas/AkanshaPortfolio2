@@ -57,8 +57,10 @@
 .ProjectTile3:hover img,
 .ProjectTile4:hover img {
     opacity: 1;
-    height: 50%;
-    width: 50%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
 }
 
 @media(max-width:992px) {

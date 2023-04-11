@@ -17,10 +17,26 @@
     src: local('ntf-grand'), url(/public/static/fonts/ntf-grand-bold.otf) format('otf');
   }
 
+@font-face {
+  font-family: "obvia";
+  src: url('/static/fonts/Fontspring-DEMO-obvia_medium.otf');
+}
+
+@font-face {
+  font-family: "justDance";
+  src: url('/static/fonts/just-dance-bold.ttf');
+}
+
   @font-face {
     font-family: 'rajdhani';
-    src: local('rajdhani'), url(/public/static/fonts/Rajdhani-Bold.ttf) format('ttf');
+    src: url('/static/fonts/Rajdhani-Bold.ttf');
   } 
+  @font-face {
+    font-family: "obvia";
+    src: local("obvia"),
+      url(/public/static/fonts/Fontspring-DEMO-obvia_medium.otf) format("otf");
+  }
+
 
   ::-webkit-scrollbar {
    display: none;

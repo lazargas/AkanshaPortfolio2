@@ -8,7 +8,12 @@ const ProjectDetails = ({headerText, gifSrcObj, caseStudyLinkObj, styleObj}) => 
   const scrollRef = useHorizontalScroll();
 
   return (
+    <>
     <div ref={scrollRef} className={style.projectDetailsContainer+ " px-0"} style={{backgroundColor:styleObj.backgroundColor, color: styleObj.textColor,}}>
+        <Link href="/" >
+        <img src="/assets/cross.png" className='absolute top-5 left-5 h-[40px]' alt="" />
+        </Link>
+        
         <div className={style.projectDetailsHeader}>
           {headerText}
         </div>
@@ -33,6 +38,8 @@ const ProjectDetails = ({headerText, gifSrcObj, caseStudyLinkObj, styleObj}) => 
             ): null}
           </div>
     </div>
+    
+    </>
   );
 };
 

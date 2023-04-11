@@ -1,9 +1,9 @@
 
 @font-face {
-    font-family: "Fontspring-DEMO-obvia_medium";
-    src: local("Fontspring-DEMO-obvia_medium"),
-      url(/public/static/fonts/Fontspring-DEMO-obvia_medium.otf) format("otf");
-  }
+  font-family: "justDance";
+  src: url('/static/fonts/just-dance-bold.ttf');
+}
+
 
 
 .projectDetailsContainer {
@@ -15,7 +15,7 @@
   font-family: "grand";
   background-color: red;
   color: #ffffff;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "justDance";
 }
 
 .projectDetailsHeader {

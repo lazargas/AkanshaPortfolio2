@@ -10,15 +10,15 @@
 
 .AboutImageContainer {
   display: flex;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
   position: relative;
   top: -10%;
 }
 
 .AboutImageContainer > img{
-  max-width: 700px;
-  width: 100%;
+  max-width: 900px;
+  width: 200%;
 }
 
 @media(max-width: 768px){
@@ -32,5 +32,8 @@
     .AboutImageContainer {
       position: unset;
       padding: 0px 30px;
+      display: flex;
+      justify-content: center;
+      overflow: hidden;
     }
 }

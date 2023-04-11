@@ -7,14 +7,22 @@ const Contact = () => {
       className="flex flex-col w-screen bg-[#09070A] pt-10 pb-20"
     >
     <div className="m-auto">
-        <div className="not-italic font-normal text-base leading-[160%] text-center text-white font-sora w-[40vw] pt-10">
-          "Contact me if you want to elevate your brand's design game. And hey, if
-          you're in the mood for a latte, I'm down for that too."
+        <div className="not-italic font-normal tracking-wide text-base leading-[200%] text-center text-white font-tex w-[50vw] pt-10">
+          "Contact me if you want to elevate your brand's design 
+        </div>
+        <div className="not-italic font-normal tracking-wide text-base leading-[200%] text-center text-white font-tex w-[50vw]" >
+          game.
+        </div>
+        <div className="not-italic font-normal tracking-wide text-base leading-[200%] text-center text-white font-tex w-[50vw]" > 
+        And hey, if you're in the mood for a latte,
+        </div>
+        <div className="not-italic font-normal tracking-wide text-base leading-[200%] text-center text-white font-tex w-[50vw]" > 
+        I'm down for that too"
         </div>
         <div className="w-[55px] m-auto">
           <img
-          src="/assets/icons/coffee.png"
-          className="pt-5 w-[80px]"
+          src="/assets/icons/cup.png"
+          className="pt-5 relative left-[-10px] max-w-[90px] "
           alt=""
         />
         </div>
@@ -33,7 +41,7 @@ const Contact = () => {
           
         </li>
         <li>
-        <a href="">
+        <a href="https://www.linkedin.com/in/akansha-singh-06aa98202/">
           <img src="/assets/icons/linkedin.svg" className="w-[55px]"  alt="" />
           </a>
         </li>
