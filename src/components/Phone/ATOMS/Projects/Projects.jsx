@@ -41,7 +41,7 @@ const Projects = () => {
               </div>
               {phone?<p className="text-white text-[24px] font-sora pt-2 sm:text-[10px]" >Click me!</p>:<p className="text-white text-[24px] font-sora pt-2 sm:text-[10px]" >Hover me!</p>}
             </Link>
-            <Link href="/cyclebecho">
+            <Link href="/test3">
               <div className={style.ProjectTile2}>
                     <img
                       src="/assets/yellow 1.png"

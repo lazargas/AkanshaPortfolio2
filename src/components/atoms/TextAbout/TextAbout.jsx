@@ -14,7 +14,7 @@ const TextAbout = () => {
           I am
         </div>
         <div className={style.AboutTypingText}>
-          <div className="font-justDance tracking-wide " >
+          <div className="font-justDance tracking-[10px] " >
           <Typewriter loop="false" words={['UI/UX DESIGNER','GRAPHIC DESIGNER']}
           cursor
           cursorStyle='_'

@@ -81,7 +81,7 @@ export default function Home() {
     <div className=" bg-[#20201e] h-screen w-full items-center justify-center">
        
       {loader ? (
-        <div className="absolute top-[50%] left-[49%] ">
+        <div className="absolute top-[50vh] left-[50vw] ">
           <SyncLoader
             color="#CC66F0"
             loading={loader}

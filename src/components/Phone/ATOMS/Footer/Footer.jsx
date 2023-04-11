@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className='w-screen h-auto p-3 bg-[#3E3A3A]items-center px-5 ' >
       <div className='text-center text-base text-white my-3'>
-          Design by Akansha Singh | Made by Akarsh
+          Design by Akansha Singh
       </div>
       <div className='flex justify-center text-xs text-white'>
           Copyright
