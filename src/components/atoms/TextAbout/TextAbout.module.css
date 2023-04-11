@@ -9,7 +9,7 @@
     font-family: "TEX";
     font-weight: 600;
     color: #FFFFFF;
-    max-width: 400px;
+    max-width: auto;
 
 }
 
@@ -27,5 +27,6 @@
             font-size: 50px;
             color: #CC66F0;
             min-height: 192px;
+            width: auto;
         }
 }   

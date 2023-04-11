@@ -10,150 +10,450 @@ const Skills = () => {
     <div name="skills" className="bg-[#20201e] overflow-hidden w-full">
       <motion.marquee
         direction="up"
-        className={`font-poppins w-full h-[500px] text-center rotate-[-90deg] py-8`}
+        className={`font-justDance w-full h-[500px] text-center rotate-[-90deg] py-8`}
       >
-        <div className="not-italic tracking-[30px] font-[800] font-sora text-8xl pt-2 pb-2 leading-[144px] text-[#F1D37D]">
+        <div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl pt-2 pb-2 leading-[144px] text-[#F1D37D]">
           SKILLS
         </div>
-        <div className="not-italic tracking-[30px] font-[800] font-sora text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-80">
+        <div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-80">
           SKILLS
         </div>
-        <div className="not-italic tracking-[30px] font-[800] font-sora text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-60">
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-60">
           SKILLS
         </div>
-        <div className="not-italic tracking-[30px] font-[800] font-sora text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
           SKILLS
         </div>
-        <div className="not-italic tracking-[30px] font-[800] font-sora text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
           SKILLS
         </div>
-        <div className="not-italic tracking-[30px] font-[800] font-sora text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-20">
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-20">
           SKILLS
         </div>
-        <div className="not-italic tracking-[30px] font-[800] font-sora text-8xl pt-2 pb-2 leading-[144px] text-[#F1D37D]">
+        <div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl pt-2 pb-2 leading-[144px] text-[#F1D37D]">
           SKILLS
         </div>
-        <div className="not-italic tracking-[30px] font-[800] font-sora text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-80">
+        <div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-80">
           SKILLS
         </div>
-        <div className="not-italic tracking-[30px] font-[800] font-sora text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-60">
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-60">
           SKILLS
         </div>
-        <div className="not-italic tracking-[30px] font-[800] font-sora text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
           SKILLS
         </div>
-        <div className="not-italic tracking-[30px] font-[800] font-sora text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
           SKILLS
         </div>
-        <div className="not-italic tracking-[30px] font-[800] font-sora text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-20">
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-20">
+          SKILLS
+        </div><div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl pt-2 pb-2 leading-[144px] text-[#F1D37D]">
           SKILLS
         </div>
-        <div className="not-italic tracking-[30px] font-[800] font-sora text-8xl pt-2 pb-2 leading-[144px] text-[#F1D37D]">
+        <div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-80">
           SKILLS
         </div>
-        <div className="not-italic tracking-[30px] font-[800] font-sora text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-80">
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-60">
           SKILLS
         </div>
-        <div className="not-italic tracking-[30px] font-[800] font-sora text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-60">
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
           SKILLS
         </div>
-        <div className="not-italic tracking-[30px] font-[800] font-sora text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
           SKILLS
         </div>
-        <div className="not-italic tracking-[30px] font-[800] font-sora text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-20">
+          SKILLS
+        </div><div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl pt-2 pb-2 leading-[144px] text-[#F1D37D]">
           SKILLS
         </div>
-        <div className="not-italic tracking-[30px] font-[800] font-sora text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-20">
+        <div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-80">
           SKILLS
         </div>
-        <div className="not-italic tracking-[30px] font-[800] font-sora text-8xl pt-2 pb-2 leading-[144px] text-[#F1D37D]">
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-60">
           SKILLS
         </div>
-        <div className="not-italic tracking-[30px] font-[800] font-sora text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-80">
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
           SKILLS
         </div>
-        <div className="not-italic tracking-[30px] font-[800] font-sora text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-60">
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
           SKILLS
         </div>
-        <div className="not-italic tracking-[30px] font-[800] font-sora text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-20">
+          SKILLS
+        </div><div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl pt-2 pb-2 leading-[144px] text-[#F1D37D]">
           SKILLS
         </div>
-        <div className="not-italic tracking-[30px] font-[800] font-sora text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
+        <div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-80">
           SKILLS
         </div>
-        <div className="not-italic tracking-[30px] font-[800] font-sora text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-20">
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-60">
           SKILLS
         </div>
-        <div className="not-italic tracking-[30px] font-[800] font-sora text-8xl pt-2 pb-2 leading-[144px] text-[#F1D37D]">
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
           SKILLS
         </div>
-        <div className="not-italic tracking-[30px] font-[800] font-sora text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-80">
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
           SKILLS
         </div>
-        <div className="not-italic tracking-[30px] font-[800] font-sora text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-60">
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-20">
+          SKILLS
+        </div><div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl pt-2 pb-2 leading-[144px] text-[#F1D37D]">
           SKILLS
         </div>
-        <div className="not-italic tracking-[30px] font-[800] font-sora text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
+        <div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-80">
           SKILLS
         </div>
-        <div className="not-italic tracking-[30px] font-[800] font-sora text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-60">
           SKILLS
         </div>
-        <div className="not-italic tracking-[30px] font-[800] font-sora text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-20">
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
           SKILLS
         </div>
-        <div className="not-italic tracking-[30px] font-[800] font-sora text-8xl pt-2 pb-2 leading-[144px] text-[#F1D37D]">
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
           SKILLS
         </div>
-        <div className="not-italic tracking-[30px] font-[800] font-sora text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-80">
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-20">
+          SKILLS
+        </div><div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl pt-2 pb-2 leading-[144px] text-[#F1D37D]">
           SKILLS
         </div>
-        <div className="not-italic tracking-[30px] font-[800] font-sora text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-60">
+        <div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-80">
           SKILLS
         </div>
-        <div className="not-italic tracking-[30px] font-[800] font-sora text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-60">
           SKILLS
         </div>
-        <div className="not-italic tracking-[30px] font-[800] font-sora text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
           SKILLS
         </div>
-        <div className="not-italic tracking-[30px] font-[800] font-sora text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-20">
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
           SKILLS
         </div>
-        <div className="not-italic tracking-[30px] font-[800] font-sora text-8xl pt-2 pb-2 leading-[144px] text-[#F1D37D]">
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-20">
+          SKILLS
+        </div><div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl pt-2 pb-2 leading-[144px] text-[#F1D37D]">
           SKILLS
         </div>
-        <div className="not-italic tracking-[30px] font-[800] font-sora text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-80">
+        <div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-80">
           SKILLS
         </div>
-        <div className="not-italic tracking-[30px] font-[800] font-sora text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-60">
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-60">
           SKILLS
         </div>
-        <div className="not-italic tracking-[30px] font-[800] font-sora text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
           SKILLS
         </div>
-        <div className="not-italic tracking-[30px] font-[800] font-sora text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
           SKILLS
         </div>
-        <div className="not-italic tracking-[30px] font-[800] font-sora text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-20">
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-20">
+          SKILLS
+        </div><div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl pt-2 pb-2 leading-[144px] text-[#F1D37D]">
           SKILLS
         </div>
-        <div className="not-italic tracking-[30px] font-[800] font-sora text-8xl pt-2 pb-2 leading-[144px] text-[#F1D37D]">
+        <div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-80">
           SKILLS
         </div>
-        <div className="not-italic tracking-[30px] font-[800] font-sora text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-80">
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-60">
           SKILLS
         </div>
-        <div className="not-italic tracking-[30px] font-[800] font-sora text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-60">
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
           SKILLS
         </div>
-        <div className="not-italic tracking-[30px] font-[800] font-sora text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
           SKILLS
         </div>
-        <div className="not-italic tracking-[30px] font-[800] font-sora text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-20">
+          SKILLS
+        </div><div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl pt-2 pb-2 leading-[144px] text-[#F1D37D]">
           SKILLS
         </div>
-        <div className="not-italic tracking-[30px] font-[800] font-sora text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-20">
+        <div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-80">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-60">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-20">
+          SKILLS
+        </div><div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl pt-2 pb-2 leading-[144px] text-[#F1D37D]">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-80">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-60">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-20">
+          SKILLS
+        </div><div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl pt-2 pb-2 leading-[144px] text-[#F1D37D]">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-80">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-60">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-20">
+          SKILLS
+        </div><div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl pt-2 pb-2 leading-[144px] text-[#F1D37D]">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-80">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-60">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-20">
+          SKILLS
+        </div><div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl pt-2 pb-2 leading-[144px] text-[#F1D37D]">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-80">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-60">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-20">
+          SKILLS
+        </div><div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl pt-2 pb-2 leading-[144px] text-[#F1D37D]">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-80">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-60">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-20">
+          SKILLS
+        </div><div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl pt-2 pb-2 leading-[144px] text-[#F1D37D]">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-80">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-60">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-20">
+          SKILLS
+        </div><div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl pt-2 pb-2 leading-[144px] text-[#F1D37D]">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-80">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-60">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-20">
+          SKILLS
+        </div><div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl pt-2 pb-2 leading-[144px] text-[#F1D37D]">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-80">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-60">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-20">
+          SKILLS
+        </div><div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl pt-2 pb-2 leading-[144px] text-[#F1D37D]">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-80">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-60">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-20">
+          SKILLS
+        </div><div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl pt-2 pb-2 leading-[144px] text-[#F1D37D]">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-80">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-60">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-20">
+          SKILLS
+        </div><div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl pt-2 pb-2 leading-[144px] text-[#F1D37D]">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-80">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-60">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-20">
+          SKILLS
+        </div><div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl pt-2 pb-2 leading-[144px] text-[#F1D37D]">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-80">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-60">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-20">
+          SKILLS
+        </div><div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl pt-2 pb-2 leading-[144px] text-[#F1D37D]">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-80">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-60">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-20">
+          SKILLS
+        </div><div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl pt-2 pb-2 leading-[144px] text-[#F1D37D]">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-80">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-60">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-20">
+          SKILLS
+        </div><div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl pt-2 pb-2 leading-[144px] text-[#F1D37D]">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-80">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-60">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-20">
+          SKILLS
+        </div><div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl pt-2 pb-2 leading-[144px] text-[#F1D37D]">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-80">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-60">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-40">
+          SKILLS
+        </div>
+        <div className="not-italic tracking-[35px] font-[800] font-justDance  text-8xl p-2 leading-[121px] text-[#F1D37D] opacity-20">
           SKILLS
         </div>
       </motion.marquee>
