@@ -1,11 +1,11 @@
 .verticaltext {
-    font-family: 'sora';
-    font-size: 15px;
+    font-family: 'TEX';
+    font-size: 20px;
     color: #FFFFFF;
-    width: max-content;
     text-align: center;
+    padding:3.5px;
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 10px;
     font-weight: 800;
 }
 
