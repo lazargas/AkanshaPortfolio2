@@ -61,7 +61,7 @@ const Projects = () => {
                     />
               </div>
             </Link>
-            <Link href="/bakeit">
+            <Link href="/bakeit2">
               <div className={style.ProjectTile3}>
                     <img
                       src="/assets/grey 1.png"

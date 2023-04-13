@@ -46,6 +46,7 @@ const getGalleryByScreenType = (screenType) => {
             <img src={galleryItem.src} />
           </div>
         ))
+  
   }
 }
 

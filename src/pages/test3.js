@@ -5,7 +5,7 @@ import React from "react";
 const test3 = () => {
   return (
     <div className="flex flex-col">
-      <ScrollSection />
+      <ScrollSection text="CYCLEBECHO.COM" color="#ecbc39" />
       <div className="h-screen w-screen flex justify-center items-center bg-[#ecbc39] ">
         <img
           src="/assets/videos/cyclebecho1.gif"

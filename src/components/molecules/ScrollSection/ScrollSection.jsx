@@ -5,7 +5,7 @@ import Link from "next/link";
 import style from "./ScrollSection.module.css";
 
 
-function ScrollSection() {
+function ScrollSection({text,color}) {
   const sectionRef = useRef(null);
   const triggerRef = useRef(null);
 
@@ -51,7 +51,7 @@ function ScrollSection() {
             </Link>
             
             <p className={style.heading} >
-                CYCLEBECHO.COM
+                {text}
             </p>
           </div>
         </div>

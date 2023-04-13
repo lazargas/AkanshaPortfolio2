@@ -51,7 +51,7 @@ const Navbar = () => {
       >
         <div className="flex py-[20px] justify-between px-14 bg-[#20201e] items-center ">
           <div className="">
-            <NavButton text="Home" Name="intro" />
+            <NavButton text="Home" Name="home" />
           </div>
           <div className=" ">
             <NavButton text="About" Name="about" />
