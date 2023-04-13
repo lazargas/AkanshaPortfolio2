@@ -43,15 +43,9 @@ function ScrollSection() {
       {/* The div below act just as a trigger. As the doc suggests, the trigger and 
       the animation should alway be two separated refs */}
       <div ref={triggerRef}>
-        <div ref={sectionRef} className="scroll-section-inner1">
+        <div ref={sectionRef} className="scroll-section-inner">
           <div className="scroll-section">
-            <div className="h-screen w-screen flex justify-center items-center bg-[#ecbc39] ">
-              <img
-                src="/assets/videos/cyclebecho1.gif"
-                className="h-[80vh] "
-                alt=""
-              />
-            </div>
+          
           </div>
           <div className="scroll-section">
         <div className='h-screen w-full flex justify-center pt-20  bg-[#ecbc39]' >

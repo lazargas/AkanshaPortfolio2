@@ -75,6 +75,17 @@
   align-items: center;
 }
 
+@media(max-width : 768px){
+  .scroll-section {
+    height: 100vh;
+    width: 3000px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 300px;
+  }
+}
+
 .scroll-section2 {
   height: 100vh;
   width: 200vw;

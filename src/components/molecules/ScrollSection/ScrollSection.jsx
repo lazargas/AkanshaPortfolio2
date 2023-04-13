@@ -2,6 +2,7 @@ import React, { useRef, useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import Link from "next/link";
+import style from "./ScrollSection.module.css";
 
 
 function ScrollSection() {
@@ -49,7 +50,7 @@ function ScrollSection() {
             <img src="/assets/cross.png" className="h-[40px] pl-5 absolute top-5 " alt="" />
             </Link>
             
-            <p className="font-justDance text-[800px] pl-20 text-white " >
+            <p className={style.heading} >
                 CYCLEBECHO.COM
             </p>
           </div>
